@@ -21,12 +21,11 @@ OpenLane provides a flow that takes RTL as input and produces GDSII (Graphic Des
 **Customizable Flow**- Users can customize the flow according to their design needs, with the ability to tweak various parameters and stages of the design process.
 **Tape-Out Ready:**-The flow is designed to produce results that are ready for tape-out, meaning the design can be sent to a foundry for manufacturing.
 #### Typical Flow in OpenLane:
-**Synthesis**-Converting RTL code to a gate-level netlist.
- **Floorplanning**-Defining the layout of the chip, including the placement of blocks and the arrangement of IOs.
-**Placement**-Placing the synthesized gates on the chip floorplan.
-**Clock Tree Synthesis (CTS)**- Designing a clock distribution network to meet timing requirements.
-**Routing:**-Creating the metal connections between gates and blocks.
-##### Signoff:
-Performing final checks, including static timing analysis, design rule checks (DRC), and layout versus schematic (LVS) checks.
-**GDSII Export**-Generating the final layout file that can be used for chip fabrication.
+1. **Synthesis**-Converting RTL code to a gate-level netlist.
+2. **Floorplanning**-Defining the layout of the chip, including the placement of blocks and the arrangement of IOs.
+3. **Placement**-Placing the synthesized gates on the chip floorplan.
+4. **Clock Tree Synthesis (CTS)**- Designing a clock distribution network to meet timing requirements.
+5. **Routing:**-Creating the metal connections between gates and blocks.
+6. **Signoff:** Performing final checks, including static timing analysis, design rule checks (DRC), and layout versus schematic (LVS) checks.
+7. **GDSII Export**-Generating the final layout file that can be used for chip fabrication.
 OpenLane is significant because it democratizes access to ASIC design, allowing researchers, startups, and hobbyists to design and potentially manufacture custom silicon without relying on expensive proprietary tools.
