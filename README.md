@@ -14,7 +14,7 @@ OpenLane is an open-source, end-to-end physical design flow for digital ASICs (A
 
 #### Key Features of OpenLane:
 ##### RTL to GDSII Flow: 
-OpenLane provides a flow that takes RTL as input and produces GDSII (Graphic Data System II), which is the standard file format for the final layout of the chip.
+OpenLane provides a flow that takes RTL as input and produces GDSII (Graphic Design System II), which is the standard file format for the final layout of the chip.
 
 ##### Open-Source Tools:
 It integrates several open-source tools such as Yosys (for synthesis), OpenSTA (for static timing analysis), Magic (for layout), KLayout (for layout visualization), and many others.
