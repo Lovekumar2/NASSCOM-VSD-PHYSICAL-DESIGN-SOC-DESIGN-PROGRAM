@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
 
-### Overview Of QFN-48 Chip 
+### Overview Of QFN-48 Chip (PicoRV32A-Cpu)
 VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed region containing the "Microprocessor," which will be designed using the RTL to GDS flow, progressing from the abstract design level to the fabrication stage.
 
 ![image](https://github.com/user-attachments/assets/844ea7fc-f4f4-4353-ae5d-d75a4507d075)
