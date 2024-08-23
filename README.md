@@ -136,5 +136,11 @@ First, ensure that OpenLane is properly installed and that you have the necessar
    ```bash
    run_signoff
    ```
-
-
+###### 5. Inspect and Modify Intermediate Results:
+- After each step, you can inspect the results, check logs, and adjust parameters as needed. This level of control allows you to optimize the design or troubleshoot issues before proceeding to the next step.
+###### 6. Generate Final GDSII File:
+- Once all steps are successfully completed, you can generate the final GDSII file, which is the format required for fabrication:
+  ``` bash
+  run_magic
+  ````
+- This step involves running DRC (Design Rule Check), LVS (Layout vs. Schematic), and generating the final layout.
