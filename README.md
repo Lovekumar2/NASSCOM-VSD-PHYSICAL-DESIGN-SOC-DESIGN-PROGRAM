@@ -50,6 +50,8 @@ OpenLane is an open-source, end-to-end physical design flow for digital ASICs (A
  ![image](https://github.com/user-attachments/assets/4d947db7-68e4-40ae-ad60-fabf697abd43)
 
 4. **Clock Tree Synthesis (CTS):**- Designing a clock distribution network to meet timing requirements.
+
+   
  ![image](https://github.com/user-attachments/assets/64904d1c-1c2e-4820-ba7c-e2d86367aa7e)
 
 5. **Routing:**- Creating the metal connections between gates and blocks.
