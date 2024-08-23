@@ -119,19 +119,19 @@ First, ensure that OpenLane is properly installed and that you have the necessar
    run_floorplan
    ```
  - Placement:
- -  ```bash
-   run_placement
-   ```
+    ```bash
+    run_placement
+    ```
  - Clock Tree Synthesis (CTS):
- ```bash
-   run_cts
-   ```
+   ```bash
+    run_cts
+    ```
  - Routing:
- -  ```bash
-   run_routing
-   ```
+    ```bash
+      run_routing
+    ```
  - Signoff:
- ```bash
+   ```bash
    run_signoff
    ```
 
