@@ -87,6 +87,16 @@ The Process Design Kit (PDK) plays a crucial role in ASIC (Application-Specific 
 ### What is .LEF File ?
 - A LEF (Library Exchange Format) file is a standard file format used in the semiconductor industry to describe the physical aspects of standard cells, macros, and other components in a design. LEF files are crucial for the place-and-route (P&R) stage of ASIC and FPGA design, where the physical layout of a chip is finalized.The information in a LEF file helps design tools understand the physical constraints and characteristics of the cells, which allows for efficient placement and routing of the components on a silicon wafer.
 ### What is ABC (Algorithm for Boolean Circuits) ?
-- ABC is an academic software tool used for the synthesis and verification of Boolean circuits. It integrates various algorithms for logic synthesis, technology mapping, and optimization. ABC is often used in the research community for experimenting with new algorithms and techniques in logic synthesis and formal verification. 
+- ABC is an academic software tool used for the synthesis and verification of Boolean circuits. It integrates various algorithms for logic synthesis, technology mapping, and optimization. ABC is often used in the research community for experimenting with new algorithms and techniques in logic synthesis and formal verification.
+- 
+### RTL2GDS OpenLANE ASIC Flow Practical implementation
 
-### LAB-1
+#### LAB-1
+##### Steps to Use OpenLane in Interactive Mode
+###### 1. Setup OpenLane Environment:
+First, ensure that OpenLane is properly installed and that you have the necessary tools and libraries available.
+###### 2. Start the Docker Container:
+OpenLane operates within a Docker container. You can start the container using the following command:
+```bash
+  make mount
+```
