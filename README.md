@@ -101,3 +101,38 @@ First, ensure that OpenLane is properly installed and that you have the necessar
   make mount
 ```
 - This command mounts your current directory into the Docker container and drops you into an interactive shell.
+###### 3. Initialize the Design:
+- Once inside the container, you need to prepare your design for the flow. This typically involves setting up the design directory and copying your RTL code into it.
+- Use the following command to start an interactive session for your design:
+```bash
+./flow.tcl -interactive
+```
+- This command will start OpenLane in interactive mode.
+###### 4. Run Individual Flow Stages:
+- In interactive mode, you can manually execute each step of the ASIC design flow. Common steps include:
+ - Synthesis:
+   ```bash
+   run_synthesis
+   ```
+ - Floorplanning:
+   ```bash
+   run_floorplan
+   ```
+ - Placement:
+ -  ```bash
+   run_placement
+   ```
+ - Clock Tree Synthesis (CTS):
+ ```bash
+   run_cts
+   ```
+ - Routing:
+ -  ```bash
+   run_routing
+   ```
+ - Signoff:
+ ```bash
+   run_signoff
+   ```
+
+
