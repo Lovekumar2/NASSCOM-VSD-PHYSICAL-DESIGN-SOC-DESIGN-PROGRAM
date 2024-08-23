@@ -120,15 +120,15 @@ First, ensure that OpenLane is properly installed and that you have the necessar
    ```
  - Placement:
     ```bash
-    run_placement
+   run_placement
     ```
  - Clock Tree Synthesis (CTS):
    ```bash
-    run_cts
+   run_cts
     ```
  - Routing:
     ```bash
-      run_routing
+   run_routing
     ```
  - Signoff:
    ```bash
