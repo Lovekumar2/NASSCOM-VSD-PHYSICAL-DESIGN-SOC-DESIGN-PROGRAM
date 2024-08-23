@@ -26,7 +26,7 @@ At its core, RISC-V is designed to be simple and efficient, with a base set of i
 
 ### OPENLANE 
 OpenLane is an open-source, end-to-end physical design flow for digital ASICs (Application-Specific Integrated Circuits) in the field of VLSI (Very Large Scale Integration). It is part of the broader OpenROAD project and is designed to be a fully automated, tape-out-ready toolchain for designing digital integrated circuits. OpenLane is used to transform a digital design (described in RTL) into a layout that can be fabricated.
-(![image](https://github.com/user-attachments/assets/940441d8-b9b2-4896-98c1-500f459c20c0)
+![image](https://github.com/user-attachments/assets/940441d8-b9b2-4896-98c1-500f459c20c0)
 
 #### Key Features of OpenLane:
 1. **RTL to GDSII Flow:**- OpenLane provides a flow that takes RTL as input and produces GDSII (Graphic Design System II), which is the standard file format for the final layout of the chip.
