@@ -110,6 +110,8 @@ First, ensure that OpenLane is properly installed and that you have the necessar
 - This command will start OpenLane in interactive mode.
 ###### 4. Run Individual Flow Stages:
 - In interactive mode, you can manually execute each step of the ASIC design flow. Common steps include:
+
+  
  - Synthesis:
    ```bash
    run_synthesis
