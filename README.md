@@ -112,27 +112,27 @@ First, ensure that OpenLane is properly installed and that you have the necessar
 - In interactive mode, you can manually execute each step of the ASIC design flow. Common steps include:
 
   
- - Synthesis:
+  Synthesis:
    ```bash
    run_synthesis
    ```
- - Floorplanning:
+  Floorplanning:
    ```bash
    run_floorplan
    ```
- - Placement:
+  Placement:
     ```bash
    run_placement
     ```
- - Clock Tree Synthesis (CTS):
+  Clock Tree Synthesis (CTS):
    ```bash
    run_cts
     ```
- - Routing:
+  Routing:
     ```bash
    run_routing
     ```
- - Signoff:
+  Signoff:
    ```bash
    run_signoff
    ```
