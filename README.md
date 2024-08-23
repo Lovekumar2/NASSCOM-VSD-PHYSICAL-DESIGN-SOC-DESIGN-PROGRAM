@@ -41,23 +41,22 @@ OpenLane is an open-source, end-to-end physical design flow for digital ASICs (A
 #### Typical Flow in OpenLane:
 1. **Synthesis:**- Converting RTL code to a gate-level netlist.
 
-2. ![image](https://github.com/user-attachments/assets/2c619ac7-5117-48aa-92f1-516a3f191dc1)
+ ![image](https://github.com/user-attachments/assets/2c619ac7-5117-48aa-92f1-516a3f191dc1)
 
-3. **Floorplanning:**- Defining the layout of the chip, including the placement of blocks and the arrangement of IOs.
-4. ![image](https://github.com/user-attachments/assets/3581a3b6-24aa-49e8-8632-5a3e8de32f74)
+2. **Floorplanning:**- Defining the layout of the chip, including the placement of blocks and the arrangement of IOs.
+ ![image](https://github.com/user-attachments/assets/3581a3b6-24aa-49e8-8632-5a3e8de32f74)
 
-5. **Placement:**- Placing the synthesized gates on the chip floorplan.
-6. ![image](https://github.com/user-attachments/assets/4d947db7-68e4-40ae-ad60-fabf697abd43)
+3. **Placement:**- Placing the synthesized gates on the chip floorplan.
+ ![image](https://github.com/user-attachments/assets/4d947db7-68e4-40ae-ad60-fabf697abd43)
 
-7. **Clock Tree Synthesis (CTS):**- Designing a clock distribution network to meet timing requirements.
-8. ![image](https://github.com/user-attachments/assets/64904d1c-1c2e-4820-ba7c-e2d86367aa7e)
+4. **Clock Tree Synthesis (CTS):**- Designing a clock distribution network to meet timing requirements.
+ ![image](https://github.com/user-attachments/assets/64904d1c-1c2e-4820-ba7c-e2d86367aa7e)
 
-9. **Routing:**- Creating the metal connections between gates and blocks.
-10. ![image](https://github.com/user-attachments/assets/2dd57219-bae8-4afd-b4f8-54d695ed71f0)
+5. **Routing:**- Creating the metal connections between gates and blocks.
+ ![image](https://github.com/user-attachments/assets/2dd57219-bae8-4afd-b4f8-54d695ed71f0)
 
-11. **Signoff:**- Performing final checks, including static timing analysis, design rule checks (DRC), and layout versus schematic (LVS) checks.
-12. 
-13. **GDSII Export:**-Generating the final layout file that can be used for chip fabrication.
+6. **Signoff:**- Performing final checks, including static timing analysis, design rule checks (DRC), and layout versus schematic (LVS) checks. 
+7. **GDSII Export:**-Generating the final layout file that can be used for chip fabrication.
 OpenLane is significant because it democratizes access to ASIC design, allowing researchers, startups, and hobbyists to design and potentially manufacture custom silicon without relying on expensive proprietary tools.
 ### Process Design Kit (PDK)
 A Process Design Kit (PDK) is a collection of resources provided by semiconductor foundries to help chip designers create integrated circuits (ICs) that are compatible with a specific manufacturing process. It includes detailed information about the process technology, such as design rules, standard cell libraries, simulation models, and technology files that describe how the physical layers of the chip should be constructed.
