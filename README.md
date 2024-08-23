@@ -89,14 +89,15 @@ The Process Design Kit (PDK) plays a crucial role in ASIC (Application-Specific 
 ### What is ABC (Algorithm for Boolean Circuits) ?
 - ABC is an academic software tool used for the synthesis and verification of Boolean circuits. It integrates various algorithms for logic synthesis, technology mapping, and optimization. ABC is often used in the research community for experimenting with new algorithms and techniques in logic synthesis and formal verification.
 - 
-### RTL2GDS OpenLANE ASIC Flow Practical implementation
+### RTL2GDS OpenLANE ASIC Flow Practical Implementation
 
 #### LAB-1
 ##### Steps to Use OpenLane in Interactive Mode
 ###### 1. Setup OpenLane Environment:
 First, ensure that OpenLane is properly installed and that you have the necessary tools and libraries available.
 ###### 2. Start the Docker Container:
-OpenLane operates within a Docker container. You can start the container using the following command:
+- OpenLane operates within a Docker container. You can start the container using the following command:
 ```bash
   make mount
 ```
+- This command mounts your current directory into the Docker container and drops you into an interactive shell.
