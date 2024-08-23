@@ -1,8 +1,25 @@
-# NASSCOM-PHYSICAL-DESIGN-SOC-DESIGN-PROGRAM
+# NASSCOM-VSD-PHYSICAL-DESIGN-SOC-DESIGN-PROGRAM
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
 
+### Overview Of QFN-48 Chip 
+VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed region containing the "Microprocessor," which will be designed using the RTL to GDS flow, progressing from the abstract design level to the fabrication stage.
+
+![image](https://github.com/user-attachments/assets/844ea7fc-f4f4-4353-ae5d-d75a4507d075)
+
+### Introduction to IC Design components and terminologies
+
+![image](https://github.com/user-attachments/assets/26f265f8-3b5a-4942-9655-53be6e8833f0)
+
+![image](https://github.com/user-attachments/assets/bdea7b05-d989-443e-8539-bff0f37a9abd)
+
+### Introduction to RISC-V
+RISC-V is an open-source instruction set architecture (ISA) based on the principles of Reduced Instruction Set Computing (RISC). Unlike proprietary architectures, RISC-V is freely available for anyone to use and modify, which has led to its growing popularity across various fields, from embedded systems to high-performance computing.
+
+At its core, RISC-V is designed to be simple and efficient, with a base set of instructions that cover essential operations like arithmetic, logic, memory access, and control flow. This base can be expanded with additional features, such as floating-point arithmetic, atomic operations, and vector processing, depending on the application’s needs.
+
+![image](https://github.com/user-attachments/assets/eae5af87-001d-4a60-85ca-a129f6513c68)
 
 ## Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK
 
@@ -52,18 +69,4 @@ The Process Design Kit (PDK) plays a crucial role in ASIC (Application-Specific 
 - A LEF (Library Exchange Format) file is a standard file format used in the semiconductor industry to describe the physical aspects of standard cells, macros, and other components in a design. LEF files are crucial for the place-and-route (P&R) stage of ASIC and FPGA design, where the physical layout of a chip is finalized.The information in a LEF file helps design tools understand the physical constraints and characteristics of the cells, which allows for efficient placement and routing of the components on a silicon wafer.
 ### What is ABC (Algorithm for Boolean Circuits) ?
 - ABC is an academic software tool used for the synthesis and verification of Boolean circuits. It integrates various algorithms for logic synthesis, technology mapping, and optimization. ABC is often used in the research community for experimenting with new algorithms and techniques in logic synthesis and formal verification. 
-### Overview Of QFN-48 Chip 
-VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed region containing the "Microprocessor," which will be designed using the RTL to GDS flow, progressing from the abstract design level to the fabrication stage.
-
-![image](https://github.com/user-attachments/assets/844ea7fc-f4f4-4353-ae5d-d75a4507d075)
-
-### Introduction to IC Design components and terminologies
-
-![image](https://github.com/user-attachments/assets/26f265f8-3b5a-4942-9655-53be6e8833f0)
-
-![image](https://github.com/user-attachments/assets/bdea7b05-d989-443e-8539-bff0f37a9abd)
-### Introduction to RISC-V
-RISC-V is an open-source instruction set architecture (ISA) based on the principles of Reduced Instruction Set Computing (RISC). Unlike proprietary architectures, RISC-V is freely available for anyone to use and modify, which has led to its growing popularity across various fields, from embedded systems to high-performance computing.
-
-At its core, RISC-V is designed to be simple and efficient, with a base set of instructions that cover essential operations like arithmetic, logic, memory access, and control flow. This base can be expanded with additional features, such as floating-point arithmetic, atomic operations, and vector processing, depending on the application’s needs.
 
