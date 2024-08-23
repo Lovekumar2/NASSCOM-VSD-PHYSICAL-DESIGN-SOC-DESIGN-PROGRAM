@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
+  -[LAB-1](LAB-1)
 
 ### Overview Of QFN-48 Chip (PicoRV32 - A Size-Optimized RISC-V CPU)
 VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed region containing the "Microprocessor (PicoRV32A-Cpu)," which will be designed using the RTL to GDS flow, progressing from the abstract design level to the fabrication stage.
@@ -87,3 +88,4 @@ The Process Design Kit (PDK) plays a crucial role in ASIC (Application-Specific 
 ### What is ABC (Algorithm for Boolean Circuits) ?
 - ABC is an academic software tool used for the synthesis and verification of Boolean circuits. It integrates various algorithms for logic synthesis, technology mapping, and optimization. ABC is often used in the research community for experimenting with new algorithms and techniques in logic synthesis and formal verification. 
 
+### LAB-1
