@@ -60,6 +60,10 @@ VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed r
 ### Introduction to IC Design components and terminologies
 
 ![image](https://github.com/user-attachments/assets/26f265f8-3b5a-4942-9655-53be6e8833f0)
-![image](https://github.com/user-attachments/assets/bdea7b05-d989-443e-8539-bff0f37a9abd)
 
+![image](https://github.com/user-attachments/assets/bdea7b05-d989-443e-8539-bff0f37a9abd)
+### Introduction to RISC-V
+RISC-V is an open-source instruction set architecture (ISA) based on the principles of Reduced Instruction Set Computing (RISC). Unlike proprietary architectures, RISC-V is freely available for anyone to use and modify, which has led to its growing popularity across various fields, from embedded systems to high-performance computing.
+
+At its core, RISC-V is designed to be simple and efficient, with a base set of instructions that cover essential operations like arithmetic, logic, memory access, and control flow. This base can be expanded with additional features, such as floating-point arithmetic, atomic operations, and vector processing, depending on the application’s needs.
 
