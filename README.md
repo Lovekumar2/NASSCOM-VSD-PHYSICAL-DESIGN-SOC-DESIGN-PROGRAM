@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
 
-### Overview Of QFN-48 Chip (PicoRV32A-Cpu)
+### Overview Of QFN-48 Chip (PicoRV32 - A Size-Optimized RISC-V CPU)
 VSD Squadron Board: The VSD Board is shown below. Our focus is on the enclosed region containing the "Microprocessor (PicoRV32A-Cpu)," which will be designed using the RTL to GDS flow, progressing from the abstract design level to the fabrication stage.
 
 ![image](https://github.com/user-attachments/assets/844ea7fc-f4f4-4353-ae5d-d75a4507d075)
@@ -26,7 +26,8 @@ At its core, RISC-V is designed to be simple and efficient, with a base set of i
 
 ### OPENLANE 
 OpenLane is an open-source, end-to-end physical design flow for digital ASICs (Application-Specific Integrated Circuits) in the field of VLSI (Very Large Scale Integration). It is part of the broader OpenROAD project and is designed to be a fully automated, tape-out-ready toolchain for designing digital integrated circuits. OpenLane is used to transform a digital design (described in RTL) into a layout that can be fabricated.
-![image](https://github.com/user-attachments/assets/940441d8-b9b2-4896-98c1-500f459c20c0)
+![image](https://github.com/user-attachments/assets/d3531547-1a2e-4cc9-9672-c0b4018be9f3)
+
 
 #### Key Features of OpenLane:
 1. **RTL to GDSII Flow:**- OpenLane provides a flow that takes RTL as input and produces GDSII (Graphic Design System II), which is the standard file format for the final layout of the chip.
@@ -43,11 +44,20 @@ OpenLane is an open-source, end-to-end physical design flow for digital ASICs (A
 2. ![image](https://github.com/user-attachments/assets/2c619ac7-5117-48aa-92f1-516a3f191dc1)
 
 3. **Floorplanning:**- Defining the layout of the chip, including the placement of blocks and the arrangement of IOs.
-4. **Placement:**- Placing the synthesized gates on the chip floorplan.
-5. **Clock Tree Synthesis (CTS):**- Designing a clock distribution network to meet timing requirements.
-6. **Routing:**- Creating the metal connections between gates and blocks.
-7. **Signoff:**- Performing final checks, including static timing analysis, design rule checks (DRC), and layout versus schematic (LVS) checks.
-8. **GDSII Export:**-Generating the final layout file that can be used for chip fabrication.
+4. ![image](https://github.com/user-attachments/assets/3581a3b6-24aa-49e8-8632-5a3e8de32f74)
+
+5. **Placement:**- Placing the synthesized gates on the chip floorplan.
+6. ![image](https://github.com/user-attachments/assets/4d947db7-68e4-40ae-ad60-fabf697abd43)
+
+7. **Clock Tree Synthesis (CTS):**- Designing a clock distribution network to meet timing requirements.
+8. ![image](https://github.com/user-attachments/assets/64904d1c-1c2e-4820-ba7c-e2d86367aa7e)
+
+9. **Routing:**- Creating the metal connections between gates and blocks.
+10. ![image](https://github.com/user-attachments/assets/2dd57219-bae8-4afd-b4f8-54d695ed71f0)
+
+11. **Signoff:**- Performing final checks, including static timing analysis, design rule checks (DRC), and layout versus schematic (LVS) checks.
+12. 
+13. **GDSII Export:**-Generating the final layout file that can be used for chip fabrication.
 OpenLane is significant because it democratizes access to ASIC design, allowing researchers, startups, and hobbyists to design and potentially manufacture custom silicon without relying on expensive proprietary tools.
 ### Process Design Kit (PDK)
 A Process Design Kit (PDK) is a collection of resources provided by semiconductor foundries to help chip designers create integrated circuits (ICs) that are compatible with a specific manufacturing process. It includes detailed information about the process technology, such as design rules, standard cell libraries, simulation models, and technology files that describe how the physical layers of the chip should be constructed.
