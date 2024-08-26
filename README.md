@@ -29,6 +29,28 @@ At its core, RISC-V is designed to be simple and efficient, with a base set of i
 ### OPENLANE 
 OpenLane is an open-source, end-to-end physical design flow for digital ASICs (Application-Specific Integrated Circuits) in the field of VLSI (Very Large Scale Integration). It is part of the broader OpenROAD project and is designed to be a fully automated, tape-out-ready toolchain for designing digital integrated circuits. OpenLane is used to transform a digital design (described in RTL) into a layout that can be fabricated.
 ![image](https://github.com/user-attachments/assets/d3531547-1a2e-4cc9-9672-c0b4018be9f3)
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light">
+  <head>
+    <title>Render</title>
+    
+    <meta name="referrer" content="never" />
+    <link rel="stylesheet" href="/static/assets/mermaid-5ff900d41fa481ba0234.css"/>
+    <script src="/static/assets/mermaidMarkdown-5ff900d41fa481ba0234.js" type="text/javascript"></script>
+  </head>
+  <body
+    class="is-embedded"
+    data-render-url="//viewscreen.githubusercontent.com"
+    data-github-hostname="github.com"
+    data-deploy-env="production"
+    data-client-timeout-attempts="30"
+    data-github-docs-hostname="https://docs.github.com"
+  >
+    <div class="render-shell js-render-shell">
+      <div class="border-wrap mermaid-view "></div>
+    </div>
+  </body>
+</html>
 
 
 #### Key Features of OpenLane:
