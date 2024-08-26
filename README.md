@@ -194,6 +194,8 @@ command for synthesis
 Now we will find the flip flop ratio
 ```bash
 flop ratio =(total no. of d flop realised) / (total no. cells)
+           = 1613/14876
+           = 0.10842
 ```
 
 
