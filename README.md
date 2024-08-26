@@ -175,8 +175,13 @@ To run in interactive mode
 bash-4.2$ ./flow.tcl -interactive
  ```
 package import and check
-
-
+```bash
+% package require openlane
+```
+prepare for the design run the command 
+```bash
+% prep -design picorv32a
+```
 
 ![Screenshot from 2024-08-22 18-43-04](https://github.com/user-attachments/assets/3bb4b134-afdc-42f3-97bc-4bee082626d2)
 ![Screenshot from 2024-08-22 18-43-17](https://github.com/user-attachments/assets/2c3ca1da-b5b9-4837-800e-2b750ac17aa7)
