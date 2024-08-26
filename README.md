@@ -190,6 +190,11 @@ command for synthesis
 ![Screenshot from 2024-08-22 18-43-04](https://github.com/user-attachments/assets/3bb4b134-afdc-42f3-97bc-4bee082626d2)
 
 ![Screenshot from 2024-08-22 18-43-17](https://github.com/user-attachments/assets/2c3ca1da-b5b9-4837-800e-2b750ac17aa7)
+###### D Flip-Flop Ratio
+Now we will find the flip flop ratio
+```bash
+flop ratio =(total no. of d flop realised) / (total no. cells)
+```
 
 
 ![Screenshot from 2024-08-22 18-13-40](https://github.com/user-attachments/assets/a6be1ca5-842b-4431-a771-784ba144fc95)
