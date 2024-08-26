@@ -169,6 +169,15 @@ First, ensure that OpenLane is properly installed and that you have the necessar
   
 ![Screenshot from 2024-08-22 17-41-01](https://github.com/user-attachments/assets/bbdc48bc-b228-4819-9db6-d7feaa73d3b9)
 
+To run in interactive mode 
+ command will be 
+ ```bash
+bash-4.2$ ./flow.tcl -interactive
+ ```
+package import and check
+
+
+
 ![Screenshot from 2024-08-22 18-43-04](https://github.com/user-attachments/assets/3bb4b134-afdc-42f3-97bc-4bee082626d2)
 ![Screenshot from 2024-08-22 18-43-17](https://github.com/user-attachments/assets/2c3ca1da-b5b9-4837-800e-2b750ac17aa7)
 
