@@ -184,7 +184,7 @@ prepare for the design run the command
 ```
 command for synthesis 
 ```bash
- % run_synthesis
+ % run_synthesis 
 ```
 
 ![Screenshot from 2024-08-22 18-43-04](https://github.com/user-attachments/assets/3bb4b134-afdc-42f3-97bc-4bee082626d2)
