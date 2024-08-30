@@ -210,22 +210,30 @@ The utilization factor and aspect ratio are critical metrics in chip or die desi
 **Utilization Factor:**
 - **Definition:**  The utilization factor, often referred to as area utilization, is a measure of how efficiently the available area on a chip or die is used by the actual logic, memory, and other functional components. It is calculated as the ratio of the area occupied by the functional elements to the total available area of the chip.
 Formula:
-Utilization Factor = ( Area Occupied by Functional Components/Total Chip Area)×100 %
+Utilization Factor = (Area Occupied by Functional Components/Total Chip Area)×100 %
 
 - Importance: A higher utilization factor indicates that more of the chip's area is used for functional purposes, which is generally desirable for cost efficiency. However, it needs to be balanced with considerations like routing space, power distribution, and thermal management.
 
 **Aspect Ratio:**
 - **Definition:** The aspect ratio of a chip or die refers to the ratio of its width to its height. It is an important parameter in the physical design and packaging of semiconductor devices.
 Formula:
-Aspect Ratio = Width of the Chip/Height of the Chip
+Aspect Ratio = Height of the Chip/Width of the Chip
 
  
 - Importance: The aspect ratio affects the chip's mechanical stability, ease of packaging, and manufacturability. Ideally, the aspect ratio should be close to 1 (i.e., the chip is nearly square), as this minimizes stress and simplifies the packaging process. However, depending on the application and design constraints, the aspect ratio may vary.
 
 
+![Screenshot 2024-08-24 220433](https://github.com/user-attachments/assets/e54dce0f-c0f4-458b-a3d1-f0119eb2db89)
 
+**Concept of pre-placed cells and de-coupling capacitors:**
+- **Pre-placed Cells:**
+Pre-placed cells are components or functional units within an IC or on a PCB that are placed at specific locations before the main placement and routing process begins. These cells are typically used for power management, signal integrity, or other critical functions that require precise positioning to meet design constraints. Pre-placed cells can include decoupling capacitors, power pads, voltage regulators, or other components that are essential for the proper functioning of the circuit.
 
+- **Decoupling Capacitors:**
+Decoupling capacitors are small-value capacitors placed between the power supply rails (Vcc and Gnd) of an integrated circuit or on a PCB to provide a local source of energy that can supply transient current demands of the active devices. They help to "decouple" the local power supply from the rest of the circuit, ensuring that rapid changes in current demanded by one component do not affect the supply voltage of other components.
 
+![image](https://github.com/user-attachments/assets/dfc331fa-d809-4c54-af0f-b6f57cd5553e)
+![image](https://github.com/user-attachments/assets/e150ba66-28c5-4678-abab-5ddfd327764a)
 
 
 
