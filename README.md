@@ -235,8 +235,14 @@ Decoupling capacitors are small-value capacitors placed between the power supply
 ![Screenshot 2024-08-24 221207](https://github.com/user-attachments/assets/c41d2c60-621c-4e05-a93e-bfe2dc929d52)
 ![image](https://github.com/user-attachments/assets/e150ba66-28c5-4678-abab-5ddfd327764a)
 
+**Run Floorplan**
+```bash
+run_floorplan
+```
 
+![Screenshot from 2024-08-30 21-50-33](https://github.com/user-attachments/assets/7c5ccc63-ce5e-4c6c-8729-c41e0280defb)
 
+![Screenshot from 2024-08-30 21-50-41](https://github.com/user-attachments/assets/33a247a0-b421-4293-ab8f-07d3bc7e0b3d)
 
 
 ![Screenshot from 2024-08-26 16-25-26](https://github.com/user-attachments/assets/be4dc1f1-b99b-42b4-96ae-68226922d3ac)
