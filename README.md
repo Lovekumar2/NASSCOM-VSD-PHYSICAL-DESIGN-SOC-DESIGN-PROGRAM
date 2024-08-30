@@ -207,15 +207,15 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
 
 The utilization factor and aspect ratio are critical metrics in chip or die design and fabrication:
 
- **Utilization Factor:**
+**Utilization Factor:**
 - **Definition:**  The utilization factor, often referred to as area utilization, is a measure of how efficiently the available area on a chip or die is used by the actual logic, memory, and other functional components. It is calculated as the ratio of the area occupied by the functional elements to the total available area of the chip.
 Formula:
 Utilization Factor = ( Area Occupied by Functional Components/Total Chip Area)×100 %
 
 - Importance: A higher utilization factor indicates that more of the chip's area is used for functional purposes, which is generally desirable for cost efficiency. However, it needs to be balanced with considerations like routing space, power distribution, and thermal management.
 
-- Aspect Ratio:
-**Definition:** The aspect ratio of a chip or die refers to the ratio of its width to its height. It is an important parameter in the physical design and packaging of semiconductor devices.
+**Aspect Ratio:**
+- **Definition:** The aspect ratio of a chip or die refers to the ratio of its width to its height. It is an important parameter in the physical design and packaging of semiconductor devices.
 Formula:
 Aspect Ratio = Width of the Chip/Height of the Chip
 
