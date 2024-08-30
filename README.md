@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
-- [DAY- 2 Good Floorplan vs bad Floorplan and Introduction to library cells](DAY--2-Good-Floorplan-vs-bad-Floorplan-and-Introduction-to-library-cells) 
+- [DAY - 2 Good Floorplan vs bad Floorplan and Introduction to library cells](#DAY---2-Good-Floorplan-vs-bad-Floorplan-and-Introduction-to-library-cells) 
 
 
 ### Overview Of QFN-48 Chip (PicoRV32 - A Size-Optimized RISC-V CPU)
