@@ -202,3 +202,40 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
 ![Screenshot from 2024-08-22 18-13-40](https://github.com/user-attachments/assets/a6be1ca5-842b-4431-a771-784ba144fc95)
 
 # DAY- 2 Good Floorplan vs bad Floorplan and Introduction to library cells
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Screenshot from 2024-08-22 18-43-17](https://github.com/user-attachments/assets/78b5f9ed-d0c7-46fa-9ed6-0536d55a4342)
+![Screenshot from 2024-08-26 16-24-54](https://github.com/user-attachments/assets/319aade9-5ceb-453a-929a-d93b9510de90)
+![Screenshot from 2024-08-26 16-25-26](https://github.com/user-attachments/assets/be4dc1f1-b99b-42b4-96ae-68226922d3ac)
+![Screenshot from 2024-08-26 16-25-36](https://github.com/user-attachments/assets/2632feef-801d-42b8-918d-0d641e3083db)
+![Screenshot from 2024-08-26 18-02-58](https://github.com/user-attachments/assets/c09ea4ac-3b41-417a-bb80-4f38ce7e329e)
+![Screenshot from 2024-08-26 18-04-15](https://github.com/user-attachments/assets/ee8746ed-8c5d-429f-a0b1-4f8b11288677)
+![Screenshot from 2024-08-26 18-11-42](https://github.com/user-attachments/assets/e8130182-c3f6-4658-8d2b-ad2b5f3b6385)
+![Screenshot from 2024-08-26 18-12-21](https://github.com/user-attachments/assets/590e4e06-9d00-45be-bbe2-59636d6a5f11)
+![Screenshot from 2024-08-26 18-16-10](https://github.com/user-attachments/assets/8051e35b-b5b8-43b1-9d4d-7a1f1dc5838a)
+![Screenshot from 2024-08-26 18-17-47](https://github.com/user-attachments/assets/908e69a1-24bb-4919-a371-f1e194d188d7)
+![Screenshot from 2024-08-26 18-17-47 - 1](https://github.com/user-attachments/assets/504c7df1-f5b8-43c1-8a97-6417500c9818)
+![Screenshot from 2024-08-26 18-17-49](https://github.com/user-attachments/assets/6b44ba2a-2e61-42ce-8cb5-a4867b85c125)
+![Screenshot from 2024-08-30 00-52-17](https://github.com/user-attachments/assets/b0ca7aa5-0fd3-4793-934a-d93bcb8d7e03)
+![Screenshot from 2024-08-30 00-52-21](https://github.com/user-attachments/assets/d4e6b92f-5dae-497f-84f7-3a6d188b2104)
+![Screenshot from 2024-08-30 00-52-45](https://github.com/user-attachments/assets/ab407d82-8158-4a4c-b869-35595199bda4)
+![Screenshot from 2024-08-30 00-53-29](https://github.com/user-attachments/assets/d717b8f6-447c-426b-b2a5-62616e1e8969)
+![Screenshot from 2024-08-30 00-53-39](https://github.com/user-attachments/assets/2d5e063a-973e-4410-a480-81a8d89c5897)
+![Screenshot from 2024-08-30 01-24-03](https://github.com/user-attachments/assets/723cd9e0-1aa9-4fd9-a699-1ddefbb5ce8d)
+![Screenshot from 2024-08-30 02-00-12](https://github.com/user-attachments/assets/088d4da2-422b-407a-bdfc-094536a22721)
+![Screenshot from 2024-08-30 02-00-27](https://github.com/user-attachments/assets/d6c60066-e5c0-43b7-9e4d-9efe9f505848)
+![Screenshot from 2024-08-30 02-01-16](https://github.com/user-attachments/assets/e1f56ef9-bd52-4a00-8b76-d7c81801f534)
+![Screenshot from 2024-08-30 18-58-52](https://github.com/user-attachments/assets/353485dc-7745-4416-bce2-7af8d8d7ea1b)
+![Screenshot from 2024-08-30 18-59-06](https://github.com/user-attachments/assets/53403cfd-6548-448a-ae2d-bee4f615adf3)
