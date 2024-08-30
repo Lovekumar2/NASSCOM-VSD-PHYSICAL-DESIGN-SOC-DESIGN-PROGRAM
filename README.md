@@ -223,7 +223,7 @@ Aspect Ratio = Height of the Chip/Width of the Chip
 - Importance: The aspect ratio affects the chip's mechanical stability, ease of packaging, and manufacturability. Ideally, the aspect ratio should be close to 1 (i.e., the chip is nearly square), as this minimizes stress and simplifies the packaging process. However, depending on the application and design constraints, the aspect ratio may vary.
 
 
-![Screenshot 2024-08-24 220433](https://github.com/user-attachments/assets/e54dce0f-c0f4-458b-a3d1-f0119eb2db89)
+![Screenshot 2024-08-24 221207](https://github.com/user-attachments/assets/c41d2c60-621c-4e05-a93e-bfe2dc929d52)
 
 **Concept of pre-placed cells and de-coupling capacitors:**
 - **Pre-placed Cells:**
@@ -232,7 +232,6 @@ Pre-placed cells are components or functional units within an IC or on a PCB tha
 - **Decoupling Capacitors:**
 Decoupling capacitors are small-value capacitors placed between the power supply rails (Vcc and Gnd) of an integrated circuit or on a PCB to provide a local source of energy that can supply transient current demands of the active devices. They help to "decouple" the local power supply from the rest of the circuit, ensuring that rapid changes in current demanded by one component do not affect the supply voltage of other components.
 
-![Screenshot 2024-08-24 221207](https://github.com/user-attachments/assets/c41d2c60-621c-4e05-a93e-bfe2dc929d52)
 ![image](https://github.com/user-attachments/assets/e150ba66-28c5-4678-abab-5ddfd327764a)
 
 **Run Floorplan**
