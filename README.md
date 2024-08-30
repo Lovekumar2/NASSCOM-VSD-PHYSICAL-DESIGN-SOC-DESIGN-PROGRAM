@@ -203,6 +203,24 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
 
 # DAY- 2 Good Floorplan vs bad Floorplan and Introduction to library cells
 
+## Utilization factor and Aspect ratio of a chip or die:
+
+The utilization factor and aspect ratio are critical metrics in chip or die design and fabrication:
+
+ **Utilization Factor:**
+- **Definition:**  The utilization factor, often referred to as area utilization, is a measure of how efficiently the available area on a chip or die is used by the actual logic, memory, and other functional components. It is calculated as the ratio of the area occupied by the functional elements to the total available area of the chip.
+Formula:
+Utilization Factor = ( Area Occupied by Functional Components/Total Chip Area)×100 %
+
+- Importance: A higher utilization factor indicates that more of the chip's area is used for functional purposes, which is generally desirable for cost efficiency. However, it needs to be balanced with considerations like routing space, power distribution, and thermal management.
+
+- Aspect Ratio:
+**Definition:** The aspect ratio of a chip or die refers to the ratio of its width to its height. It is an important parameter in the physical design and packaging of semiconductor devices.
+Formula:
+Aspect Ratio = Width of the Chip/Height of the Chip
+
+ 
+- Importance: The aspect ratio affects the chip's mechanical stability, ease of packaging, and manufacturability. Ideally, the aspect ratio should be close to 1 (i.e., the chip is nearly square), as this minimizes stress and simplifies the packaging process. However, depending on the application and design constraints, the aspect ratio may vary.
 
 
 
@@ -213,11 +231,6 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
 
 
 
-
-
-
-![Screenshot from 2024-08-22 18-43-17](https://github.com/user-attachments/assets/78b5f9ed-d0c7-46fa-9ed6-0536d55a4342)
-![Screenshot from 2024-08-26 16-24-54](https://github.com/user-attachments/assets/319aade9-5ceb-453a-929a-d93b9510de90)
 ![Screenshot from 2024-08-26 16-25-26](https://github.com/user-attachments/assets/be4dc1f1-b99b-42b4-96ae-68226922d3ac)
 ![Screenshot from 2024-08-26 16-25-36](https://github.com/user-attachments/assets/2632feef-801d-42b8-918d-0d641e3083db)
 ![Screenshot from 2024-08-26 18-02-58](https://github.com/user-attachments/assets/c09ea4ac-3b41-417a-bb80-4f38ce7e329e)
