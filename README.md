@@ -238,12 +238,13 @@ Decoupling capacitors are small-value capacitors placed between the power supply
 ```bash
 run_floorplan
 ```
-
 ![Screenshot from 2024-08-30 21-50-33](https://github.com/user-attachments/assets/7c5ccc63-ce5e-4c6c-8729-c41e0280defb)
 
 ![Screenshot from 2024-08-30 21-50-41](https://github.com/user-attachments/assets/33a247a0-b421-4293-ab8f-07d3bc7e0b3d)
 
 **Picorv32a floorplan def file:**
+
+
 ![Screenshot from 2024-08-30 22-01-51](https://github.com/user-attachments/assets/00e525ea-022c-497c-99cc-4b920998e174)
 
 ![Screenshot from 2024-08-30 21-59-56](https://github.com/user-attachments/assets/961be1a5-bba4-4001-b640-c6759e889625)
@@ -251,6 +252,20 @@ run_floorplan
 
 
 **magic tool tech file and the layout of design:**
+
+![image](https://github.com/user-attachments/assets/6dca3660-2c4f-4a22-af12-54d79e50e14a)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![Screenshot from 2024-08-26 16-25-26](https://github.com/user-attachments/assets/be4dc1f1-b99b-42b4-96ae-68226922d3ac)
 ![Screenshot from 2024-08-26 16-25-36](https://github.com/user-attachments/assets/2632feef-801d-42b8-918d-0d641e3083db)
