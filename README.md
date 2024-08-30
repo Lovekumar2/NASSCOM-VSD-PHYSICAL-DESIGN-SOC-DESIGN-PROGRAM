@@ -232,7 +232,7 @@ Pre-placed cells are components or functional units within an IC or on a PCB tha
 - **Decoupling Capacitors:**
 Decoupling capacitors are small-value capacitors placed between the power supply rails (Vcc and Gnd) of an integrated circuit or on a PCB to provide a local source of energy that can supply transient current demands of the active devices. They help to "decouple" the local power supply from the rest of the circuit, ensuring that rapid changes in current demanded by one component do not affect the supply voltage of other components.
 
-![image](https://github.com/user-attachments/assets/dfc331fa-d809-4c54-af0f-b6f57cd5553e)
+![Screenshot 2024-08-24 221207](https://github.com/user-attachments/assets/c41d2c60-621c-4e05-a93e-bfe2dc929d52)
 ![image](https://github.com/user-attachments/assets/e150ba66-28c5-4678-abab-5ddfd327764a)
 
 
