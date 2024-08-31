@@ -259,19 +259,24 @@ run_floorplan
 **Centering the Design:**
 
 Press ``` S ``` to select the entire design.
+
 Press ``` V ``` to vertically align it to the middle of the screen.
 
 **Zooming In on a Specific Area:**
 
 Left-click and drag to select the desired region.
+
 Right-click to bring up the context menu.
+
 Press``` Z ``` to zoom in on the selected area.
 
 
 **Getting Details of a Cell:**
 
 Move your cursor to the cell of interest.
+
 Press ``` S ``` to select the cell.
+
 In the tkcon window, enter the command "what" to display cell details.
 
 ![image](https://github.com/user-attachments/assets/680be45e-a6b5-419e-93d0-5be3b2322120)
@@ -287,7 +292,6 @@ In the tkcon window, enter the command "what" to display cell details.
 
 
 
-![Screenshot from 2024-08-26 16-25-26](https://github.com/user-attachments/assets/be4dc1f1-b99b-42b4-96ae-68226922d3ac)
 ![Screenshot from 2024-08-26 16-25-36](https://github.com/user-attachments/assets/2632feef-801d-42b8-918d-0d641e3083db)
 ![Screenshot from 2024-08-26 18-02-58](https://github.com/user-attachments/assets/c09ea4ac-3b41-417a-bb80-4f38ce7e329e)
 ![Screenshot from 2024-08-26 18-04-15](https://github.com/user-attachments/assets/ee8746ed-8c5d-429f-a0b1-4f8b11288677)
