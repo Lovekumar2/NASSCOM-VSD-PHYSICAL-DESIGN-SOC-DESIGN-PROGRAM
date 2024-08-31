@@ -257,15 +257,21 @@ run_floorplan
 
 
 **Centering the Design:**
-Press ```bash S ``` to select the entire design.
-Press ```bash V ``` to vertically align it to the middle of the screen.
+
+Press ``` S ``` to select the entire design.
+Press ``` V ``` to vertically align it to the middle of the screen.
+
 **Zooming In on a Specific Area:**
+
 Left-click and drag to select the desired region.
 Right-click to bring up the context menu.
-Press```bash Z ``` to zoom in on the selected area.
+Press``` Z ``` to zoom in on the selected area.
+
+
 **Getting Details of a Cell:**
+
 Move your cursor to the cell of interest.
-Press ``` bash S ``` to select the cell.
+Press ``` S ``` to select the cell.
 In the tkcon window, enter the command "what" to display cell details.
 
 ![image](https://github.com/user-attachments/assets/680be45e-a6b5-419e-93d0-5be3b2322120)
