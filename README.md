@@ -287,9 +287,9 @@ Placement plays a crucial role in VLSI (Very Large Scale Integration) design. It
 
 - **Global Placement:**
 
- - Global placement assigns general locations to movable objects (cells).
- - Some overlaps between placed objects are allowed during this stage. 
- - The goal is to achieve a rough layout that satisfies area constraints.
+  - Global placement assigns general locations to movable objects (cells).
+  - Some overlaps between placed objects are allowed during this stage. 
+  - The goal is to achieve a rough layout that satisfies area constraints.
 
 - **Detailed Placement:**
 
