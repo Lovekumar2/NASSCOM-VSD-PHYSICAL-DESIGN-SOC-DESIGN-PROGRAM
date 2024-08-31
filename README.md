@@ -288,6 +288,7 @@ In the tkcon window, enter the command "what" to display cell details.
 
 
 
+![Screenshot from 2024-08-26 18-16-10](https://github.com/user-attachments/assets/8051e35b-b5b8-43b1-9d4d-7a1f1dc5838a)
 
 
 
@@ -297,7 +298,6 @@ In the tkcon window, enter the command "what" to display cell details.
 ![Screenshot from 2024-08-26 18-04-15](https://github.com/user-attachments/assets/ee8746ed-8c5d-429f-a0b1-4f8b11288677)
 ![Screenshot from 2024-08-26 18-11-42](https://github.com/user-attachments/assets/e8130182-c3f6-4658-8d2b-ad2b5f3b6385)
 ![Screenshot from 2024-08-26 18-12-21](https://github.com/user-attachments/assets/590e4e06-9d00-45be-bbe2-59636d6a5f11)
-![Screenshot from 2024-08-26 18-16-10](https://github.com/user-attachments/assets/8051e35b-b5b8-43b1-9d4d-7a1f1dc5838a)
 ![Screenshot from 2024-08-26 18-17-47](https://github.com/user-attachments/assets/908e69a1-24bb-4919-a371-f1e194d188d7)
 ![Screenshot from 2024-08-26 18-17-47 - 1](https://github.com/user-attachments/assets/504c7df1-f5b8-43c1-8a97-6417500c9818)
 ![Screenshot from 2024-08-26 18-17-49](https://github.com/user-attachments/assets/6b44ba2a-2e61-42ce-8cb5-a4867b85c125)
