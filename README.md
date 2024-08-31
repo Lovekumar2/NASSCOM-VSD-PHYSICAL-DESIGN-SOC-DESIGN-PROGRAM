@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
-- [DAY - 2 Good Floorplan vs bad Floorplan and Introduction to library cells](#DAY---2-Good-Floorplan-vs-bad-Floorplan-and-Introduction-to-library-cells) 
+- [Day - 2 Good Floorplan vs bad Floorplan and Introduction to library cells](#DAY---2-Good-Floorplan-vs-bad-Floorplan-and-Introduction-to-library-cells) 
 
 
 ### Overview Of QFN-48 Chip (PicoRV32 - A Size-Optimized RISC-V CPU)
@@ -201,7 +201,7 @@ flop ratio =(total no. of d flop realised) / (total no. cells)
 
 ![Screenshot from 2024-08-22 18-13-40](https://github.com/user-attachments/assets/a6be1ca5-842b-4431-a771-784ba144fc95)
 
-# DAY- 2 Good Floorplan vs bad Floorplan and Introduction to library cells
+# Day - 2 Good Floorplan vs bad Floorplan and Introduction to library cells
 
 ## Utilization factor and Aspect ratio of a chip or die:
 
