@@ -328,23 +328,14 @@ Now all these 8 steps are fed in together as a configuration file to a character
 
 
 | Timing defintion | value |             
-| :------------------| :-------------|
 | `slew_low_rise_thr`| `20% value`   |
-| :------------------| :-------------|
 |`slew_high_rise_thr`| `80% value`   |
-| :------------------| :-------------|
 | `slew_low_fall_thr`| `20% value`   |
-| :------------------| :-------------|
 |`slew_high_fall_thr`| `80% value`   |
-| :------------------| :-------------|
 | `in_rise_thr`      | `50% value`   |
-| :------------------| :-------------|
 | `in_fall_thr`      | `50% value`   |
-| :------------------| :-------------|
 | `out_rise_thr`     | `50% value`   |
-| :------------------| :-------------|
 | `out_fall_thr`     | `50% value`   |
-| :------------------| :-------------|
 
 
 
