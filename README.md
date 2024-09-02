@@ -305,8 +305,6 @@ Placement plays a crucial role in VLSI (Very Large Scale Integration) design. It
 
 
 
-![Screenshot from 2024-08-26 16-25-36](https://github.com/user-attachments/assets/2632feef-801d-42b8-918d-0d641e3083db)
-![Screenshot from 2024-08-26 18-02-58](https://github.com/user-attachments/assets/c09ea4ac-3b41-417a-bb80-4f38ce7e329e)
 ![Screenshot from 2024-08-26 18-04-15](https://github.com/user-attachments/assets/ee8746ed-8c5d-429f-a0b1-4f8b11288677)
 ![Screenshot from 2024-08-26 18-11-42](https://github.com/user-attachments/assets/e8130182-c3f6-4658-8d2b-ad2b5f3b6385)
 ![Screenshot from 2024-08-26 18-12-21](https://github.com/user-attachments/assets/590e4e06-9d00-45be-bbe2-59636d6a5f11)
