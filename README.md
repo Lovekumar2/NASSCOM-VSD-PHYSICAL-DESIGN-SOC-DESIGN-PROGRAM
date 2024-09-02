@@ -365,13 +365,5 @@ Low transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
 # Day -3 Design Library Cell using magic layout and ngspice charcterization
 
 ![Screenshot from 2024-08-26 18-17-47 - 1](https://github.com/user-attachments/assets/504c7df1-f5b8-43c1-8a97-6417500c9818)
-![Screenshot from 2024-08-30 00-52-21](https://github.com/user-attachments/assets/d4e6b92f-5dae-497f-84f7-3a6d188b2104)
-![Screenshot from 2024-08-30 00-52-45](https://github.com/user-attachments/assets/ab407d82-8158-4a4c-b869-35595199bda4)
-![Screenshot from 2024-08-30 00-53-29](https://github.com/user-attachments/assets/d717b8f6-447c-426b-b2a5-62616e1e8969)
-![Screenshot from 2024-08-30 00-53-39](https://github.com/user-attachments/assets/2d5e063a-973e-4410-a480-81a8d89c5897)
-![Screenshot from 2024-08-30 01-24-03](https://github.com/user-attachments/assets/723cd9e0-1aa9-4fd9-a699-1ddefbb5ce8d)
-![Screenshot from 2024-08-30 02-00-12](https://github.com/user-attachments/assets/088d4da2-422b-407a-bdfc-094536a22721)
-![Screenshot from 2024-08-30 02-00-27](https://github.com/user-attachments/assets/d6c60066-e5c0-43b7-9e4d-9efe9f505848)
-![Screenshot from 2024-08-30 02-01-16](https://github.com/user-attachments/assets/e1f56ef9-bd52-4a00-8b76-d7c81801f534)
-![Screenshot from 2024-08-30 18-58-52](https://github.com/user-attachments/assets/353485dc-7745-4416-bce2-7af8d8d7ea1b)
-![Screenshot from 2024-08-30 18-59-06](https://github.com/user-attachments/assets/53403cfd-6548-448a-ae2d-bee4f615adf3)
+![image](https://github.com/user-attachments/assets/4d0794eb-c91d-4b69-bedb-d9e241cac72c)
+
