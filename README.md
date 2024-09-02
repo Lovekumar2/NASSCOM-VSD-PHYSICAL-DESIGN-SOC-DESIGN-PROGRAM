@@ -302,6 +302,52 @@ Placement plays a crucial role in VLSI (Very Large Scale Integration) design. It
 
 ![Screenshot from 2024-08-26 18-16-10](https://github.com/user-attachments/assets/8051e35b-b5b8-43b1-9d4d-7a1f1dc5838a)
 
+## CELL DESIGN AND CHARACETRIZATION FLOWS
+
+Library is a place where we get information about every cell. It has differents cells with different size, functionality,threshold voltages. There is a typical cell design flow steps.
+
+    Inputs : PDKS(process design kit) : DRC & LVS, SPICE Models, library & user-defined specs.
+    Design Steps :Circuit design, Layout design (Art of layout Euler's path and stick diagram), Extraction of parasitics, Characterization (timing, noise, power).
+    Outputs: CDL (circuit description language), LEF, GDSII, extracted SPICE netlist (.cir), timing, noise and power .lib files
+## Standard Cell Characterization Flow
+A typical standard cell characterization flow that is followed in the industry includes the following steps:
+
+- Read in the models and tech files
+- Read extracted spice Netlist
+- Recognise behavior of the cells
+- Read the subcircuits
+- Attach power sources
+- Apply stimulus to characterization setup
+- Provide neccesary output capacitance loads
+- Provide neccesary simulation commands
+Now all these 8 steps are fed in together as a configuration file to a characterization software called GUNA. This software generates timing, noise, power models. These .libs are classified as Timing 
+ characterization, power characterization and noise characterization.
+
+
+
+
+
+| Timing defintion | value |             
+| :------------------| :-------------|
+| `slew_low_rise_thr`| `20% value`   |
+| :------------------| :-------------|
+|`slew_high_rise_thr`| `80% value`   |
+| :------------------| :-------------|
+| `slew_low_fall_thr`| `20% value`   |
+| :------------------| :-------------|
+|`slew_high_fall_thr`| `80% value`   |
+| :------------------| :-------------|
+| `in_rise_thr`      | `50% value`   |
+| :------------------| :-------------|
+| `in_fall_thr`      | `50% value`   |
+| :------------------| :-------------|
+| `out_rise_thr`     | `50% value`   |
+| :------------------| :-------------|
+| `out_fall_thr`     | `50% value`   |
+| :------------------| :-------------|
+
+
+
 
 
 
