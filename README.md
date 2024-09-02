@@ -300,7 +300,9 @@ Placement plays a crucial role in VLSI (Very Large Scale Integration) design. It
 
 ``` magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def & ```
 
-
+![Screenshot from 2024-08-26 18-04-15](https://github.com/user-attachments/assets/ee8746ed-8c5d-429f-a0b1-4f8b11288677)
+![Screenshot from 2024-08-26 18-11-42](https://github.com/user-attachments/assets/e8130182-c3f6-4658-8d2b-ad2b5f3b6385)
+![Screenshot from 2024-08-26 18-12-21](https://github.com/user-attachments/assets/590e4e06-9d00-45be-bbe2-59636d6a5f11)
 ![Screenshot from 2024-08-26 18-16-10](https://github.com/user-attachments/assets/8051e35b-b5b8-43b1-9d4d-7a1f1dc5838a)
 
 ## CELL DESIGN AND CHARACETRIZATION FLOWS
@@ -361,9 +363,7 @@ Rise transition time = time(slew_high_rise_thr) - time (slew_low_rise_thr)
 Low transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
 ```
 # Day -3 Design Library Cell using magic layout and ngspice charcterization
-![Screenshot from 2024-08-26 18-04-15](https://github.com/user-attachments/assets/ee8746ed-8c5d-429f-a0b1-4f8b11288677)
-![Screenshot from 2024-08-26 18-11-42](https://github.com/user-attachments/assets/e8130182-c3f6-4658-8d2b-ad2b5f3b6385)
-![Screenshot from 2024-08-26 18-12-21](https://github.com/user-attachments/assets/590e4e06-9d00-45be-bbe2-59636d6a5f11)
+
 ![Screenshot from 2024-08-26 18-17-47 - 1](https://github.com/user-attachments/assets/504c7df1-f5b8-43c1-8a97-6417500c9818)
 ![Screenshot from 2024-08-30 00-52-21](https://github.com/user-attachments/assets/d4e6b92f-5dae-497f-84f7-3a6d188b2104)
 ![Screenshot from 2024-08-30 00-52-45](https://github.com/user-attachments/assets/ab407d82-8158-4a4c-b869-35595199bda4)
