@@ -328,7 +328,7 @@ Now all these 8 steps are fed in together as a configuration file to a character
 
 
 | Timing defintion   | value         | 
-
+|----------|----------|
 | `slew_low_rise_thr`| `20% value`   |
 
 |`slew_high_rise_thr`| `80% value`   |
