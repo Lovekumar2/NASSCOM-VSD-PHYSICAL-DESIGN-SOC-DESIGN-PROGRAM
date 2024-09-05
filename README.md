@@ -888,30 +888,35 @@ Delay: Longer or more resistive paths can introduce delays that affect the timin
 Routing Constraints:
 
 #### Timing Constraints: Ensuring that the routed paths meet the required timing (setup and hold times).
-Power Constraints: Minimizing power consumption and ensuring that power distribution is balanced.
-Signal Integrity: Maintaining signal quality by minimizing noise, crosstalk, and other electrical issues.
+**Power Constraints:** Minimizing power consumption and ensuring that power distribution is balanced.
+
+**Signal Integrity:** Maintaining signal quality by minimizing noise, crosstalk, and other electrical issues.
 
 #### b. Design Rule Check (DRC):
 Design Rule Check (DRC) is a verification step in the physical design process that ensures the layout of the chip adheres to a set of predefined rules provided by the semiconductor foundry. These rules are necessary to guarantee that the design can be manufactured reliably.
 
 #### Key Aspects of DRC:
-Design Rules:
+ **Design Rules:**
 
-Spacing Rules: Minimum distances between different metal layers, vias, or other features to avoid shorts and ensure manufacturability.
-Width Rules: Minimum and maximum width of wires to ensure that they can be manufactured correctly and carry the required current without issues.
-Enclosure Rules: Requirements for how different layers must overlap or enclose each other (e.g., metal layers and vias).
-Alignment Rules: Ensure that different layers align correctly to avoid misalignment during manufacturing.
+ - Spacing Rules: Minimum distances between different metal layers, vias, or other features to avoid shorts and ensure manufacturability.
+ - Width Rules: Minimum and maximum width of wires to ensure that they can be manufactured correctly and carry the required current without issues.
+ - Enclosure Rules: Requirements for how different layers must overlap or enclose each other (e.g., metal layers and vias).
+ - Alignment Rules: Ensure that different layers align correctly to avoid misalignment during manufacturing.
 
-DRC Tools:
+**DRC Tools:**
 
 Tools like Calibre, Mentor Graphics, or Cadence's Assura are commonly used to run DRC checks. These tools take the physical layout as input and verify it against the foundry's design rules.
 Common DRC Violations:
 
-Shorts: When two wires or components that should not be connected are too close or overlap.
-Opens: Missing connections due to routing errors or insufficient overlap of layers.
-Minimum Width Violations: Wires or features that are too narrow and might not be reliably manufactured.
-Spacing Violations: Features that are too close together, which can cause shorts or manufacturing issues.
-DRC Correction:
+- Shorts: When two wires or components that should not be connected are too close or overlap.
+  
+- Opens: Missing connections due to routing errors or insufficient overlap of layers.
+  
+- Minimum Width Violations: Wires or features that are too narrow and might not be reliably manufactured.
+  
+-Spacing Violations: Features that are too close together, which can cause shorts or manufacturing issues.
+
+**DRC Correction:**
 
 After running a DRC, any violations are flagged, and the design must be corrected. This may involve adjusting the layout, rerouting wires, or modifying cell placement.
 
@@ -924,13 +929,13 @@ After running a DRC, any violations are flagged, and the design must be correcte
 
 #### a. Global Routing:
 
-##### Purpose: Provides a high-level, coarse plan for connecting different regions of the chip. It divides the chip into grids and assigns general paths for connections without specifying exact wire routes.
-##### Outcome: Guides the detailed routing stage by outlining broad paths for signals to follow, helping to manage congestion and ensure that connections can be made.
+**Purpose:**  Provides a high-level, coarse plan for connecting different regions of the chip. It divides the chip into grids and assigns general paths for connections without specifying exact wire routes.
+**Outcome:** Guides the detailed routing stage by outlining broad paths for signals to follow, helping to manage congestion and ensure that connections can be made.
 
 #### b. Detailed Routing:
 
-##### Purpose: Converts the global routing plan into precise, geometric wire routes on specific metal layers, connecting all components according to the design's netlist.
-##### Outcome: Finalizes the exact paths for each wire, ensuring they meet design rules (like spacing and width), and resolves any conflicts or congestion identified during global routing.
+**Purpose:** Converts the global routing plan into precise, geometric wire routes on specific metal layers, connecting all components according to the design's netlist.
+**Outcome:**  Finalizes the exact paths for each wire, ensuring they meet design rules (like spacing and width), and resolves any conflicts or congestion identified during global routing.
 
 ![Screenshot from 2024-09-04 01-01-55](https://github.com/user-attachments/assets/60b5b7d6-ed70-4ab7-8ffc-c50d98ec4ba1)
 
@@ -939,39 +944,39 @@ After running a DRC, any violations are flagged, and the design must be correcte
 
 #### a. Maze Routing:
 
-Purpose: Maze routing is an algorithm used to find a path between two points (e.g., from a source to a destination pin) in a grid while avoiding obstacles.
+- Purpose: Maze routing is an algorithm used to find a path between two points (e.g., from a source to a destination pin) in a grid while avoiding obstacles.
 
-How It Works:
+**How It Works:**
 
 The grid is treated as a matrix, where each cell represents a possible location for the wire. Obstacles like other wires, cells, or blocked areas are marked as unavailable.
 The algorithm explores all possible paths from the source to the destination, usually using a breadth-first search (BFS) approach.
 It expands from the source node by checking neighboring cells until it reaches the destination.
 The shortest path found through this exploration is chosen as the route.
-Pros:
+- Pros:
 
 Optimal Path: Guarantees finding the shortest path if one exists.
 Flexibility: Can handle complex obstacles and multiple routing layers.
-Cons:
+- Cons:
 
 Computationally Expensive: Can be slow and resource-intensive, especially for large designs.
 Not Always Practical for Large Grids: The algorithm can become infeasible for very large or densely populated grids due to its exhaustive nature.
 
 #### b. Steiner Tree Algorithm:
-Purpose: The Steiner tree algorithm is used to connect multiple points (e.g., multiple pins that need to be connected by a single net) with the shortest possible interconnect length, minimizing the total wire length.
+**Purpose:** The Steiner tree algorithm is used to connect multiple points (e.g., multiple pins that need to be connected by a single net) with the shortest possible interconnect length, minimizing the total wire length.
 
-How It Works:
+**How It Works:**
 
 The algorithm starts by creating a minimal spanning tree (MST) that connects all the target points (e.g., pins).
 Steiner points, which are additional points not originally in the set of target points, are introduced to reduce the overall wire length. These points act as intermediate nodes that help in minimizing the total connection length.
 The resulting structure is a Steiner tree, which is a tree that connects all target points (and possibly additional Steiner points) with the minimal total interconnect length.
-Pros:
+- Pros:
 
 Minimized Wire Length: Produces a routing solution with minimal total wire length, which is beneficial for reducing delay and power consumption.
 Efficient for Multi-Terminal Nets: Particularly useful for nets that need to connect more than two pins.
-Cons:
+- Cons:
 
-Complexity: Finding the exact Steiner tree is an NP-hard problem, meaning it can be computationally expensive for large nets.
-Approximation: Often, heuristic or approximate methods are used to find a near-optimal Steiner tree, which might not be the absolute minimum.
+ - Complexity: Finding the exact Steiner tree is an NP-hard problem, meaning it can be computationally expensive for large nets.
+ - Approximation: Often, heuristic or approximate methods are used to find a near-optimal Steiner tree, which might not be the absolute minimum.
 
 ![Screenshot from 2024-09-04 00-45-15](https://github.com/user-attachments/assets/f10eb3e1-abcd-49d3-8ef7-f201b5c945ba)
 ![Screenshot from 2024-09-04 00-45-34](https://github.com/user-attachments/assets/e14c7003-6fda-431b-8e08-100263c39ef2)
@@ -981,18 +986,19 @@ Approximation: Often, heuristic or approximate methods are used to find a near-o
 
 ### 4-Power distribution and network routing
 
-#### a. Power Distribution:
+**Power Distribution:**
 Power distribution in IC design refers to the process of delivering power from the external power sources (like power pads or pins) to every component within the chip, including logic gates, flip-flops, memory cells, and other circuits.
 
 ##### Key Concepts:
 
-##### Power and Ground Rails:
+**Power and Ground Rails:**
 These are the main conductors that distribute power (VDD) and ground (VSS) across the chip. They are typically implemented as wide metal lines running across the chip to minimize resistance and voltage drop.
 
 ##### Power Grids:
 A power grid is a network of horizontal and vertical metal lines that form a mesh-like structure across the chip. This grid ensures that power is distributed uniformly to all areas of the chip.
-VDD Grid: Carries the supply voltage.
-VSS Grid: Carries the ground potential.
+- VDD Grid: Carries the supply voltage.
+  
+- VSS Grid: Carries the ground potential.
 
 ##### Power Rings:
 Rings of metal lines surrounding certain regions or blocks on the chip, providing a stable supply of power and grounding. They help in minimizing noise and ensuring a reliable power supply.
@@ -1008,26 +1014,26 @@ Power network routing involves the detailed placement and routing of the power d
 
 ##### Steps in Power Network Routing:
 
-##### Placement of Power Pads:
+**Placement of Power Pads:**
 Power pads (VDD, VSS) are placed around the periphery of the chip or in specific locations within the chip. These pads connect the internal power network to the external power supply.
 
-##### Creation of Power Grid:
+**Creation of Power Grid:**
 A grid of metal layers is laid out across the chip to distribute the power. The grid usually spans multiple metal layers, with the lower layers used for local distribution and the upper layers for global distribution.
 
-##### Power Rings and Straps:
+**Power Rings and Straps:**
 Power rings are placed around the periphery of major blocks (e.g., memory blocks, large logic blocks) to ensure a stable power supply.
 Power straps are used to connect the power rings and the power grid, ensuring that current can flow efficiently from the power pads to all parts of the chip.
 
-##### Via Placement:
+**Via Placement:**
 Vias are used to connect different metal layers within the power grid. Multiple vias are often placed in parallel to reduce resistance and ensure reliable current flow.
 
-##### IR Drop Analysis:
+**IR Drop Analysis:**
 After routing the power network, an IR drop analysis is performed to ensure that the voltage drop across the power grid is within acceptable limits. Excessive IR drop can cause circuits to malfunction due to insufficient voltage levels.
 
-##### Electromigration Check:
+**Electromigration Check:**
 Electromigration refers to the gradual movement of metal atoms in the power grid due to high current densities, which can lead to failures. The power network is checked to ensure that the current density in all metal lines is below the safe limits to avoid electromigration.
 
-##### Noise and Decoupling:
+**Noise and Decoupling:**
 The power network is designed to minimize noise (e.g., ground bounce) by carefully placing decoupling capacitors and ensuring that the grid structure is robust.
 
 ![Screenshot from 2024-09-04 00-59-03](https://github.com/user-attachments/assets/cdbff524-e23c-4c85-9162-34b2e208ce8d)
@@ -1038,34 +1044,34 @@ The power network is designed to minimize noise (e.g., ground bounce) by careful
 ### 5-TritonRoute features
 TritonRoute is an open-source detailed routing tool used in the physical design of integrated circuits (ICs). It is a critical component of the Triton suite of EDA (Electronic Design Automation) tools. TritonRoute is specifically designed for the detailed routing stage of VLSI (Very Large Scale Integration) design.
 
-Key Features of TritonRoute:
-Detailed Routing:
+#### Key Features of TritonRoute:
+**Detailed Routing:**
 
 TritonRoute performs the detailed routing step in the IC design flow, where it converts global routing paths into exact geometrical wire routes on the metal layers of the chip.
 It handles the connection of signal nets, power nets, and clock nets, ensuring that all routing adheres to design rules.
-Design Rule Checking (DRC):
+**Design Rule Checking (DRC):**
 
 TritonRoute incorporates design rule checking within its routing algorithms to ensure that all routed wires comply with the foundry's design rules, such as spacing, width, and via requirements.
 The tool is capable of resolving DRC violations that may arise during routing.
-Open-Source and Integration:
+**Open-Source and Integration:**
 
 TritonRoute is open-source, which means it can be freely used, modified, and integrated into custom EDA flows.
 It is part of the broader OpenROAD project, which aims to provide a fully autonomous, open-source RTL-to-GDSII flow.
-High-Quality Routing:
+**High-Quality Routing:**
 
 The tool focuses on generating high-quality routing solutions that minimize wire length, reduce congestion, and respect timing and power constraints.
 It can handle complex designs with a large number of nets and multiple metal layers.
 Scalability:
 
 TritonRoute is designed to be scalable, handling both small and large designs efficiently. It leverages modern algorithms to manage the complexity of routing in advanced technology nodes.
-Customization and Flexibility:
+**Customization and Flexibility:**
 
 Being open-source, TritonRoute allows for extensive customization. Users can modify the tool to suit specific design requirements or integrate it with other tools in their design flow.
 The tool can be adapted for different technology nodes and design styles.
-Part of the Triton Suite:
+**Part of the Triton Suite:**
 
 TritonRoute works in conjunction with other tools in the Triton suite, such as TritonCTS (Clock Tree Synthesis) and TritonPlace (Placement), providing a comprehensive solution for physical design.
-Community and Support:
+**Community and Support:**
 
 As an open-source project, TritonRoute benefits from community contributions and ongoing development. It is actively maintained by researchers and contributors in the EDA community.
 
