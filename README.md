@@ -633,30 +633,25 @@ fall_transition = (20% of 3.3v) - (80% of 3.3v)
 
 
 
-## 1-Delay Table
+### 1-Delay Table
 
 In physical design, a delay table is a data structure used to model the delay characteristics of standard cells or interconnects in a digital circuit.
 
-### Purpose
+#### Purpose
 **Estimate Delays:**  Delay tables help in estimating the propagation delay through gates or along wires, which is crucial for timing analysis.
 
-### Components
-**Input Slew:** The rise and fall time of the input signal.
-
-**Output Load:** The capacitive load that the gate drives, including wire capacitance and the input capacitance of connected gates.
-
-### Delay Values  
+#### Delay Values  
 The actual propagation delays, typically provided for different combinations of input slew and output load.
 
-### Usage
+#### Usage
 **Static Timing Analysis (STA):** Delay tables feed information into STA tools to evaluate the timing performance of a design.
 
 **Cell Libraries:** Standard cell libraries include delay tables for each cell type, allowing EDA tools to accurately model and simulate circuit behavior.
-### Types
+#### Types
 **Linear Delay Models:** Simplified models that use linear equations.
 
 **Non-linear Delay Models:** More complex and accurate, capturing variations due to non-linear effects.
-### Importance
+#### Importance
 Accuracy: Provides accurate timing information, crucial for ensuring that the design meets its timing constraints.
 
 Optimization: Helps in identifying critical paths and optimizing them to improve performance.
@@ -665,32 +660,32 @@ Optimization: Helps in identifying critical paths and optimizing them to improve
 
 
 
-## 2-Setup time and Hold time of Flop
+### 2-Setup time and Hold time of Flop
 
-### Set Up Time Analysis
+#### Set Up Time Analysis
 Setup time is the minimum time period before the clock edge during which the data input must be stable.
 
-### Purpose:
+#### Purpose:
 Ensures that the data is correctly sampled by the flip-flop on the active clock edge.
 
-### Analysis Steps:
+#### Analysis Steps:
 Identify Critical Paths: Trace the longest path from one flip-flop to the next, including combinational logic.
 
-### Calculate Data Path Delay: Sum up the delays of all elements (gates, interconnects) in the data path.
+**Calculate Data Path Delay**: Sum up the delays of all elements (gates, interconnects) in the data path.
 
-### Compare with Setup Time: Ensure that the data path delay plus setup time is less than the clock period.
+**Compare with Setup Time:** Ensure that the data path delay plus setup time is less than the clock period.
 
 Data Path Delay + Setup Time < Clock Period
 
 Adjust if Necessary: If the condition isn’t met, optimize the design by reducing delays, increasing clock period, or modifying the path.
 
-### Hold Time Analysis
+#### Hold Time Analysis
 Hold time is the minimum time period after the clock edge during which the data input must remain stable.
 
-### Purpose:
+#### Purpose:
 Prevents the new data from being captured too early, ensuring the current data is held long enough.
 
-### Analysis Steps:
+#### Analysis Steps:
 **Identify Critical Paths:** Examine paths where new data might overwrite current data too soon.
 
 **Calculate Data Path Delay:** Consider the minimum delay from the clock edge to the data input.
@@ -701,7 +696,7 @@ Data Path Delay>Hold Time
 
 **Adjust if Necessary:** If the condition isn’t met, add buffers or delay elements to increase path delay.
 
-### Importance
+#### Importance
 **Setup Time Violations:** Can lead to incorrect data being captured, causing functional errors.
 
 **Hold Time Violations:** Can result in data corruption as new data overwrites old data prematurely.
@@ -711,23 +706,25 @@ Data Path Delay>Hold Time
 
 
 
-## 3-Clock tree routing and buffering
+### 3-Clock tree routing and buffering
 
 Clock tree routing and buffering are crucial steps in the physical design phase of integrated circuit (IC) design. These steps ensure that the clock signal is distributed efficiently and uniformly across the entire chip to all sequential elements (like flip-flops) with minimal skew and latency.
 
-### a. Clock Tree Synthesis (CTS):
+#### a. Clock Tree Synthesis (CTS):
 **Purpose:** The goal of clock tree synthesis is to distribute the clock signal from a single clock source (usually a Phase-Locked Loop (PLL) or a clock generator) to all the sequential elements in the design (like flip-flops) with minimal skew and balanced delays.
 
-### Challenges:
+#### Challenges:
 **Clock Skew:** The difference in arrival times of the clock signal at different sequential elements. Skew can lead to timing violations, so minimizing it is a primary goal.
 
 **Clock Latency:** The delay from the clock source to a flip-flop or other sequential element. Latency needs to be controlled to meet timing requirements.
 
-#### Power Consumption: Clock networks are often the most power-consuming part of the chip. Optimizing for lower power while maintaining performance is crucial.
+#### Power Consumption: 
+
+Clock networks are often the most power-consuming part of the chip. Optimizing for lower power while maintaining performance is crucial.
 
 #### b. Clock Tree Routing:
 
-#### Tree Structure: The clock distribution network is usually constructed as a tree (hence the name "clock tree"). This tree structure helps in balancing the delays and skew.
+**Tree Structure:** The clock distribution network is usually constructed as a tree (hence the name "clock tree"). This tree structure helps in balancing the delays and skew.
 
 #### Clock Tree Topologies:
 - H-Tree: A hierarchical tree structure that is symmetric and balanced, often used in regular grid layouts.
