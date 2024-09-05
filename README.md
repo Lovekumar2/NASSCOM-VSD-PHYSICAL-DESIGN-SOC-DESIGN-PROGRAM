@@ -348,6 +348,8 @@ Now all these 8 steps are fed in together as a configuration file to a character
 
 If the threshold values used to measure this delay are not chosen carefully, it can result in negative delay values, which are not physically meaningful. However, even with well-chosen thresholds, the delay might still appear positive or negative due to variations in the slew rate, which is how quickly the signal transitions from one value to another.
 
+![image](https://github.com/user-attachments/assets/f1c39625-2bf0-4afd-b492-5dd4608aa694)
+
 
 ``` bash
 Propagation delay = time(out_thr) - time(in_thr)
@@ -364,12 +366,7 @@ Low transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
 ```
 # Day -3 Design Library Cell using magic layout and ngspice charcterization
 
-![Screenshot from 2024-08-26 18-17-47 - 1](https://github.com/user-attachments/assets/504c7df1-f5b8-43c1-8a97-6417500c9818)
-![image](https://github.com/user-attachments/assets/4d0794eb-c91d-4b69-bedb-d9e241cac72c)
-
-## DAY-3: Design Library Cell using Magic Layout and NGSPICE Characterization
-
-### CONTENTS
+## CONTENTS
 
 - [VTC Spice Simulation](#vtc-spice-simulation)
 - [Concept on Switching Threshold](#concept-on-switching-threshold)
@@ -378,27 +375,34 @@ Low transition time = time(slew_high_fall_thr) - time (slew_low_fall_thr)
 - [LABs Exercise](#labs-exercise)
 
 
-### VTC Spice Simulation
-VTC stands for Voltage Transfer Characteristic, which is a fundamental concept in the analysis and design of electronic circuits, particularly in the context of analog and mixed-signal integrated circuits. A VTC spice simulation refers to the process of using a SPICE (Simulation Program with Integrated Circuit Emphasis) simulator to analyze and plot the voltage transfer characteristic of a circuit.
+## VTC Spice Simulation
 
-In a VTC simulation, the input voltage to a circuit is swept across a range of values, and the corresponding output voltage is recorded. The resulting plot of output voltage versus input voltage provides insight into the linearity, gain, and operating regions of the circuit. This is particularly important for understanding the behavior of amplifiers, logic gates, and other signal processing circuits.
+Voltage Transfer Characteristic (VTC) is a key concept in electronic circuit analysis and design, especially in analog and mixed-signal integrated circuits. A VTC SPICE simulation refers to the process of using a SPICE (Simulation Program with Integrated Circuit Emphasis) simulator to analyze and plot the VTC curve of a circuit.
 
-Here's a step-by-step overview of how a VTC spice simulation might be performed:
+In a VTC simulation, the input voltage of the circuit is gradually swept over a specified range, while the corresponding output voltage is measured. The plot of output voltage versus input voltage generated from this data provides valuable insights into the circuit’s linearity, gain, and various operating regions. This is especially useful for evaluating the performance of amplifiers, logic gates, and signal processing circuits.
 
-  #### I> Circuit Design: The circuit to be analyzed is designed in a schematic capture tool that is compatible with the SPICE simulator being used.
+Here’s a step-by-step guide for performing a VTC SPICE simulation:
 
-  #### II> Simulation Setup: The SPICE simulation is set up with the appropriate analysis type, which could be a DC sweep analysis if the goal is to plot the VTC over a range of DC input voltages.
+- Define the circuit in SPICE using its netlist.
+- Set up a DC sweep simulation for the input voltage.
+- Specify the range over which the input voltage will vary.
+- Run the simulation to record the output voltage for each input value.
+- Plot the VTC curve (output voltage vs. input voltage).
+- Analyze the plot to evaluate the circuit’s behavior, including linearity, gain, and transition regions.
 
- #### III> nput Signal Sweep: The input voltage source is configured to sweep across the desired range of voltages. This could be from the negative supply rail to the positive supply rail, or any other relevant range.
+**Circuit Design:** The circuit to be analyzed is designed in a schematic capture tool that is compatible with the SPICE simulator being used.
 
-  #### IV> Output Measurement: 
-   The output node of the circuit is specified, and the simulator is instructed to record the voltage at this node for each input voltage step.
+**Simulation Setup:** The SPICE simulation is set up with the appropriate analysis type, which could be a DC sweep analysis if the goal is to plot the VTC over a range of DC input voltages.
 
- #### V> Simulation Run: The simulation is run, and the SPICE engine calculates the circuit's response to each input voltage.
+**nput Signal Sweep:** The input voltage source is configured to sweep across the desired range of voltages. This could be from the negative supply rail to the positive supply rail, or any other relevant range.
 
-  #### VI> Data Analysis: The resulting data is plotted as a graph with input voltage on the x-axis and output voltage on the y-axis. This plot is the VTC of the circuit.
+**Output Measurement:**  The output node of the circuit is specified, and the simulator is instructed to record the voltage at this node for each input voltage step.
 
-#### VII>  Interpretation: The VTC is analyzed to determine the circuit's performance characteristics, such as gain, input offset voltage, output swing, and the presence of any non-linearities or distortion.
+**Simulation Run:** The simulation is run, and the SPICE engine calculates the circuit's response to each input voltage.
+
+**Data Analysis:**  The resulting data is plotted as a graph with input voltage on the x-axis and output voltage on the y-axis. This plot is the VTC of the circuit.
+
+**Interpretation:**  The VTC is analyzed to determine the circuit's performance characteristics, such as gain, input offset voltage, output swing, and the presence of any non-linearities or distortion.
 
 ![Screenshot 2024-08-31 21 19 24](https://github.com/user-attachments/assets/8687e29c-48c4-4f27-adda-fcf81aa23011)
 
@@ -429,93 +433,93 @@ The switching threshold is influenced by several factors, including:
 
 
 
-### Static And Dynamic Simulation of CMOS Inverter
+## Static And Dynamic Simulation of CMOS Inverter
 
-#### Static Simulation
+### Static Simulation
 Static simulation, also known as DC analysis, involves analyzing the circuit's behavior at DC (Direct Current) steady-state conditions. This type of simulation is used to determine the following characteristics:
 
    Voltage Transfer Characteristic (VTC): The VTC plot shows the relationship between the input voltage (Vin) and the output voltage (Vout) of the inverter. It helps in understanding the transition between the logic levels (0 and 1) and the noise margins.
 
-   a- Switching Threshold (V_th): The input voltage at which the inverter switches from one logic state to another. Ideally, for a symmetrical VTC, the switching threshold is at Vdd/2, where Vdd is the supply voltage.
+**Switching Threshold (V_th):** The input voltage at which the inverter switches from one logic state to another. Ideally, for a symmetrical VTC, the switching threshold is at Vdd/2, where Vdd is the supply voltage.
 
-   b- Noise Margins: The maximum noise voltage that can be tolerated at the input while the output remains in the correct logic state.
+**Noise Margins:** The maximum noise voltage that can be tolerated at the input while the output remains in the correct logic state.
 
-   c- Static Power Dissipation: The power consumed by the inverter when it is in a stable state (not switching). This is typically very low in CMOS circuits due to the low leakage currents.
+**Static Power Dissipation:** The power consumed by the inverter when it is in a stable state (not switching). This is typically very low in CMOS circuits due to the low leakage currents.
 
-#### Dynamic Simulation
+### Dynamic Simulation
 Dynamic simulation, also known as transient analysis, involves analyzing the circuit's behavior over time as it responds to time-varying input signals. This type of simulation is used to determine the following characteristics:
 
-   a- Propagation Delay (t_p): The time it takes for the output to change in response to a change in the input. It is typically measured as the time from the 50% point of the input transition to the 50% point of the output transition.
+**Propagation Delay (t_p):** The time it takes for the output to change in response to a change in the input. It is typically measured as the time from the 50% point of the input transition to the 50% point of the output transition.
 
-   b- Rise Time (t_r) and Fall Time (t_f): The times it takes for the output to transition from 10% to 90% (rise time) and from 90% to 10% (fall time) of the output voltage swing.
+**Rise Time (t_r) and Fall Time (t_f):** The times it takes for the output to transition from 10% to 90% (rise time) and from 90% to 10% (fall time) of the output voltage swing.
 
-   c- Power Consumption: The dynamic power consumed by the inverter during switching, which is a function of the switching frequency, load capacitance, and supply voltage.
+**Power Consumption:** The dynamic power consumed by the inverter during switching, which is a function of the switching frequency, load capacitance, and supply voltage.
 
-   d- Transient Response: The overall response of the inverter to input signals, including overshoot, undershoot, and ringing.
+**Transient Response:**  The overall response of the inverter to input signals, including overshoot, undershoot, and ringing.
     
 ![maxresdefaul4t](https://github.com/user-attachments/assets/5a72fdab-6149-4377-a1b9-b53323efa131)
 
 
 
-### Layout and CMOS Fabrication Process
+## Layout and CMOS Fabrication Process
 
 The CMOS (Complementary Metal-Oxide-Semiconductor) fabrication process is a complex series of steps used to manufacture integrated circuits. CMOS technology is widely used in modern electronics due to its low power consumption and high-density integration capabilities. The fabrication process involves several key steps, including substrate preparation, doping, oxidation, photolithography, etching, and metallization. Here is an overview of the CMOS fabrication process:
-1. Substrate Preparation
+**1. Substrate Preparation**
 
     Starting Material: The process begins with a pure silicon wafer, which serves as the substrate.
     Cleaning: The wafer is thoroughly cleaned to remove any impurities.
 
-2. Oxidation
+**2. Oxidation**
 
     Thermal Oxidation: A layer of silicon dioxide (SiO2) is grown on the surface of the silicon wafer. This oxide layer acts as an insulator and also serves as a mask for subsequent doping processes.
 
-3. Photolithography
+**3. Photolithography**
 
     Photoresist Application: A light-sensitive polymer called photoresist is applied to the wafer surface.
     Exposure and Development: The wafer is exposed to ultraviolet (UV) light through a mask that contains the desired pattern. The exposed photoresist is then developed, leaving a patterned layer on the wafer.
 
-4. Etching
+**4. Etching**
 
     Wet or Dry Etching: The areas of the wafer not protected by the photoresist are etched away using either wet chemicals or dry plasma etching.
 
-5. Doping
+**5. Doping**
 
     Ion Implantation: Selected areas of the wafer are doped with impurities (dopants) such as boron or phosphorus to create n-type or p-type regions. This process alters the electrical properties of the silicon, creating the necessary semiconductor characteristics.
 
-6. Isolation
+**6. Isolation**
 
     Local Oxidation of Silicon (LOCOS): An oxide layer is grown in selected areas to isolate different components of the circuit.
     Trench Isolation: Alternatively, trenches can be etched and filled with oxide to achieve isolation.
 
-7. Transistor Formation
+**7. Transistor Formation**
 
-    Gate Oxide Growth: A thin layer of oxide is grown on the surface where the transistors will be formed.
+    - Gate Oxide Growth:  A thin layer of oxide is grown on the surface where the transistors will be formed.
 
-    Polysilicon Deposition: A layer of polysilicon is deposited and patterned to form the gates of the transistors.
+    - Polysilicon Deposition: A layer of polysilicon is deposited and patterned to form the gates of the transistors.
 
-    Spacer Formation: Spacers are created on the sides of the gate to control the subsequent doping process.
+    - Spacer Formation: Spacers are created on the sides of the gate to control the subsequent doping process.
 
-    Source/Drain Implantation: Dopants are implanted to form the source and drain regions of the transistors.
+    - Source/Drain Implantation: Dopants are implanted to form the source and drain regions of the transistors.
 
-8. Silicidation
+**8. Silicidation**
 
     Silicide Formation: A silicide layer (e.g., tungsten silicide) is formed on top of the polysilicon gate and the source/drain regions to reduce resistance.
 
-9. Interlayer Dielectric and Planarization
+**9. Interlayer Dielectric and Planarization**
 
     Dielectric Deposition: A layer of insulating material (e.g., silicon dioxide) is deposited over the entire wafer.
     Chemical Mechanical Polishing (CMP): The wafer surface is planarized using CMP to ensure a smooth surface for subsequent metallization.
 
-10. Metallization
+**10. Metallization**
 
     Metal Layers: Multiple layers of metal (e.g., aluminum or copper) are deposited and patterned to form the interconnections between transistors and other components.
     Contact and Via Formation: Contacts and vias are etched and filled with metal to connect the transistors to the metal layers.
 
-11. Passivation
+**11. Passivation**
 
     Passivation Layer: A final layer of insulating material is deposited to protect the circuit from external contaminants.
 
-12. Testing and Packaging
+**12. Testing and Packaging**
 
     Wafer Probing: The wafer is tested to identify any defective chips.
 
@@ -534,9 +538,10 @@ The CMOS (Complementary Metal-Oxide-Semiconductor) fabrication process is a comp
 
 #### 1. IoPlacer revision & adding the "set::env" command
 
-![copy_of_sky130](https://github.com/user-attachments/assets/7a93c68a-0453-4cec-8a6a-ce2475ec8dcf)
+![Screenshot from 2024-08-26 18-17-47 - 1](https://github.com/user-attachments/assets/504c7df1-f5b8-43c1-8a97-6417500c9818)
 
-![Screenshot from 2024-08-29 17-35-05](https://github.com/user-attachments/assets/b3901dc3-ed2d-48a2-a770-df2566893c80)
+
+![image](https://github.com/user-attachments/assets/4d0794eb-c91d-4b69-bedb-d9e241cac72c)
 
 here the the i/o pins are congested and overlapped:
 ![Screenshot from 2024-08-29 17-40-03](https://github.com/user-attachments/assets/b753f254-58f2-4765-85a2-62cb961207a2)
