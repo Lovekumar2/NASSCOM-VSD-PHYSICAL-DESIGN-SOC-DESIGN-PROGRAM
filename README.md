@@ -554,22 +554,24 @@ here the the i/o pins are congested and overlapped:
 
 #### 3. Extraction to spice format
 
-![Screenshot from 2024-08-29 19-08-56](https://github.com/user-attachments/assets/d323e7d9-33d4-4830-b8ca-8c272448b887)
-
-![Screenshot from 2024-08-29 19-10-00](https://github.com/user-attachments/assets/c66868ba-5ade-4a03-993d-28590ebd35fb)
-
 ![Screenshot from 2024-08-29 19-10-45](https://github.com/user-attachments/assets/f35f1939-cda1-4ecf-a890-53af26cb7bce)
+
+![image](https://github.com/user-attachments/assets/664e5b09-9de2-45cd-9c47-59719359fb68)
 
 #### 4. spice tecgnology file, simulation and output graph
 
-![Screenshot from 2024-08-29 19-10-45](https://github.com/user-attachments/assets/6f227d4a-0ba5-44cf-a165-52d39c790ccf)
 
-![Screenshot from 2024-08-30 18-31-52](https://github.com/user-attachments/assets/c8c56581-42d2-482d-8799-bbcfa6f89ad5)
+![image](https://github.com/user-attachments/assets/8cde7b4e-a65d-469b-a0ca-32aa56679a7c)
+
+
+![image](https://github.com/user-attachments/assets/e83aca2a-edd4-4611-a076-da3400d4a5dd)
 
 ![Screenshot from 2024-08-30 01-51-46](https://github.com/user-attachments/assets/6ea7716f-15a0-4842-8202-7422e3a86411)
 
 updated tech file:
-![Screenshot from 2024-08-30 18-32-22](https://github.com/user-attachments/assets/fefa7871-be72-49ae-b910-8aeb77211ac4)
+
+![image](https://github.com/user-attachments/assets/88803377-45ca-47af-a96b-dd7d91d106c0)
+
 
 #### 5. Parameters Calculation
 ##### 5-a rise transition of of output: 20% of VDD to 80% of VDD
