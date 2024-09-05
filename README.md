@@ -552,7 +552,6 @@ here the the i/o pins are congested and overlapped:
 
 #### 3. Extraction to spice format
 
-![Screenshot from 2024-08-29 19-10-45](https://github.com/user-attachments/assets/f35f1939-cda1-4ecf-a890-53af26cb7bce)
 
 ![image](https://github.com/user-attachments/assets/664e5b09-9de2-45cd-9c47-59719359fb68)
 
