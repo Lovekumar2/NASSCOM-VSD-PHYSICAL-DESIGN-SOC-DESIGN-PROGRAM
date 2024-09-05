@@ -973,10 +973,11 @@ The resulting structure is a Steiner tree, which is a tree that connects all tar
 
 Minimized Wire Length: Produces a routing solution with minimal total wire length, which is beneficial for reducing delay and power consumption.
 Efficient for Multi-Terminal Nets: Particularly useful for nets that need to connect more than two pins.
-- Cons:
 
- - Complexity: Finding the exact Steiner tree is an NP-hard problem, meaning it can be computationally expensive for large nets.
- - Approximation: Often, heuristic or approximate methods are used to find a near-optimal Steiner tree, which might not be the absolute minimum.
+- Cons:
+  
+Complexity: Finding the exact Steiner tree is an NP-hard problem, meaning it can be computationally expensive for large nets.
+Approximation: Often, heuristic or approximate methods are used to find a near-optimal Steiner tree, which might not be the absolute minimum.
 
 ![Screenshot from 2024-09-04 00-45-15](https://github.com/user-attachments/assets/f10eb3e1-abcd-49d3-8ef7-f201b5c945ba)
 ![Screenshot from 2024-09-04 00-45-34](https://github.com/user-attachments/assets/e14c7003-6fda-431b-8e08-100263c39ef2)
