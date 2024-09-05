@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d85eed0b-221b-42f1-a20d-567d0ec6bbd3)# NASSCOM-VSD-PHYSICAL-DESIGN-SOC-DESIGN-PROGRAM
+# NASSCOM-VSD-PHYSICAL-DESIGN-SOC-DESIGN-PROGRAM
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
