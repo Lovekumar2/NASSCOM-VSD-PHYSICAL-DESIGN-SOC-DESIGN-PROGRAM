@@ -817,10 +817,10 @@ tap_decap_or
 
 ![image](https://github.com/user-attachments/assets/89b85407-8dc4-4f3e-8abd-0599e1fc9540)
 
-my_base.sdc
+**my_base.sdc**
 ![Screenshot from 2024-09-02 23-52-01](https://github.com/user-attachments/assets/78fedd02-a835-4856-bd02-83fceb7bfe2b)
 
-sta.conf
+**sta.conf**
 ![Screenshot from 2024-09-02 23-52-20](https://github.com/user-attachments/assets/c5531bfa-1e00-4438-b2b6-9e2c90ea4210)
 ![Screenshot from 2024-09-03 00-01-51](https://github.com/user-attachments/assets/43d4cd03-c20a-4e49-8562-b9e73c88674f)
 
@@ -828,19 +828,19 @@ again run_synthesis, then floorplan, placement
 ![image](https://github.com/user-attachments/assets/8b056129-156f-4197-b634-3343c0eba28a)
 
 ![image](https://github.com/user-attachments/assets/b1516239-1970-4bb3-9a59-a7507e872403)
-![Screenshot from 2024-09-03 11-41-37](https://github.com/user-attachments/assets/5ce247e1-0dcb-4227-b271-db97f740a71c)
 
 **openroad**
-file:///home/vsduser/Pictures/Screenshot%20from%202024-09-03%2017-44-38.png![image](https://github.com/user-attachments/assets/50d3d244-c1d0-4854-9123-27d29d2d535c)
+![image](https://github.com/user-attachments/assets/50d3d244-c1d0-4854-9123-27d29d2d535c)
 
 **CTS run**
 ![image](https://github.com/user-attachments/assets/357f5032-3ff1-4a70-b706-9dfa645b22a6)
 
+![image](https://github.com/user-attachments/assets/25841ac2-fccd-4cb2-a0ec-f2d526785eda)
 
-![Screenshot from 2024-09-03 11-43-15](https://github.com/user-attachments/assets/44374bb3-3e70-4ff5-874b-48292ec306b2)
-![Screenshot from 2024-09-03 12-01-28](https://github.com/user-attachments/assets/8285663a-ce94-4f0a-b952-4de128c9c252)
-![Screenshot from 2024-09-03 15-33-21](https://github.com/user-attachments/assets/4e3815c9-d0f7-4294-957e-73ac623f152d)
-![Screenshot from 2024-09-03 15-35-15](https://github.com/user-attachments/assets/b96fa9ef-4dc0-4fe3-ba8f-81833b9023a1)
+![image](https://github.com/user-attachments/assets/19786d1f-3191-4691-a06f-d72d314bc3ca)
+
+![image](https://github.com/user-attachments/assets/b7ad1f6a-560b-411d-9b05-a7e66a024226)
+
 
 
 
