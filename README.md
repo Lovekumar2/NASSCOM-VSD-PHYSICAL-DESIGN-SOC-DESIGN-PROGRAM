@@ -541,9 +541,6 @@ The CMOS (Complementary Metal-Oxide-Semiconductor) fabrication process is a comp
 
 ![Screenshot from 2024-08-26 18-17-47 - 1](https://github.com/user-attachments/assets/504c7df1-f5b8-43c1-8a97-6417500c9818)
 
-
-![image](https://github.com/user-attachments/assets/4d0794eb-c91d-4b69-bedb-d9e241cac72c)
-
 here the the i/o pins are congested and overlapped:
 ![Screenshot from 2024-08-29 17-40-03](https://github.com/user-attachments/assets/b753f254-58f2-4765-85a2-62cb961207a2)
 
