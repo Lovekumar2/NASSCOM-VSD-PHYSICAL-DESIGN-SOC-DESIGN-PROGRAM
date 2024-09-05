@@ -1110,15 +1110,18 @@ As an open-source project, TritonRoute benefits from community contributions and
 
 ### 6-Labs practise
 
-![45aa96bb-7bfc-47f6-9e68-32965104e4d9](https://github.com/user-attachments/assets/1daa8a1a-3d03-4bf6-afec-ed8ed0c640de)
-![97020c9a-4804-44ec-9dbc-3c888a31c74d](https://github.com/user-attachments/assets/550bd942-321a-4066-959c-abb7d13700fa)
-![7f266a21-d2a7-4bee-9f74-aeec5c9ddf82](https://github.com/user-attachments/assets/aedeac6a-cfb4-4269-92a2-919e2b1f5c2f)
-![bb469b51-769c-408b-8bbe-5c7e59c6870c](https://github.com/user-attachments/assets/0d838e4c-ebee-4305-ac48-6eaad362e3e9)
-![ac832fc1-5798-4ab1-90d1-513754c44919](https://github.com/user-attachments/assets/b2450cc5-ae3d-4256-867a-907cd899cd75)
-![34bfdaae-603e-493a-98a6-20be76519035](https://github.com/user-attachments/assets/635c710e-299c-4f85-98c0-1c65171a53ed)
-![6dbcb6f0-bf28-4e85-acba-03eda3ec56ee](https://github.com/user-attachments/assets/f905c566-3969-4be5-995b-3b4b1ab961e2)
-![aff86155-b67e-44d9-9ac9-583f2a2d9ec2](https://github.com/user-attachments/assets/166d4152-8c12-4cd4-86cd-fce2e22c54d3)
-![7d38b0ba-3ac6-4773-bd9f-306e6e31f56f](https://github.com/user-attachments/assets/7ba075d9-9fc4-43d3-a2ad-c6407d57e7aa)
+![image](https://github.com/user-attachments/assets/d9d8a767-6d42-4a31-90fe-3e93f67ea96a)
 
+![image](https://github.com/user-attachments/assets/4c3995fe-c023-400a-bfb6-ab01bbf61210)
+
+![image](https://github.com/user-attachments/assets/c2e9894e-3c0b-4bf4-9978-112d1cee9ede)
+
+![image](https://github.com/user-attachments/assets/d93ff2ab-0233-483b-9783-83f8accf7113)
+
+![image](https://github.com/user-attachments/assets/9980d5ec-1ab7-43f0-80e3-8fef38460903)
+
+![Screenshot from 2024-09-03 18-46-05](https://github.com/user-attachments/assets/f77b7c53-b766-43df-a9b5-6c075f213df1)
+
+![Screenshot from 2024-09-03 18-53-51](https://github.com/user-attachments/assets/864261f9-9300-4300-ae0e-5be7a001a2c1)
 
 
