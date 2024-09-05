@@ -1,4 +1,4 @@
-# NASSCOM-VSD-PHYSICAL-DESIGN-SOC-DESIGN-PROGRAM
+![image](https://github.com/user-attachments/assets/d85eed0b-221b-42f1-a20d-567d0ec6bbd3)# NASSCOM-VSD-PHYSICAL-DESIGN-SOC-DESIGN-PROGRAM
 
 ## Table of Contents
 - [Day - 1 Introduction of Open-Source EDA, OpenLane and Sky130 PDK](#day---1-Introduction-of-Open-Source-EDA-OpenLane-and-Sky130-PDK)
@@ -418,15 +418,15 @@ For example, in a CMOS (Complementary Metal-Oxide-Semiconductor) inverter, which
 
 The switching threshold is influenced by several factors, including:
 
-   1. Device Characteristics: The physical properties of the transistors used in the circuit, such as their threshold voltage (Vth), affect the overall switching threshold of the circuit.
+   **1. Device Characteristics:** The physical properties of the transistors used in the circuit, such as their threshold voltage (Vth), affect the overall switching threshold of the circuit.
 
-   2. Supply Voltage: The operating voltage of the circuit can impact the switching threshold. As the supply voltage changes, the switching threshold may also shift.
+  **2. Supply Voltage:**  The operating voltage of the circuit can impact the switching threshold. As the supply voltage changes, the switching threshold may also shift.
 
-   3. Temperature: Temperature variations can cause changes in the electrical characteristics of the transistors, which can in turn affect the switching threshold.
+   **3. Temperature:** Temperature variations can cause changes in the electrical characteristics of the transistors, which can in turn affect the switching threshold.
 
-   4. Process Variations: Manufacturing variations can lead to differences in the electrical properties of transistors, which can influence the switching threshold of the circuit.
+   **4. Process Variations:** Manufacturing variations can lead to differences in the electrical properties of transistors, which can influence the switching threshold of the circuit.
 
-   5. Load Capacitance: The capacitive load connected to the output of the circuit can affect the switching threshold due to the dynamic behavior of the circuit during switching.
+   **5. Load Capacitance:** The capacitive load connected to the output of the circuit can affect the switching threshold due to the dynamic behavior of the circuit during switching.
 
 ![image](https://github.com/user-attachments/assets/31e3b8d8-189c-40b3-bfdb-f3ec66e79c79)
 
