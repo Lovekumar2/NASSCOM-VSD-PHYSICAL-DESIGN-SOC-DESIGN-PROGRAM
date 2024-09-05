@@ -566,7 +566,6 @@ here the the i/o pins are congested and overlapped:
 
 ![image](https://github.com/user-attachments/assets/e83aca2a-edd4-4611-a076-da3400d4a5dd)
 
-![Screenshot from 2024-08-30 01-51-46](https://github.com/user-attachments/assets/6ea7716f-15a0-4842-8202-7422e3a86411)
 
 updated tech file:
 
