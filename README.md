@@ -809,7 +809,8 @@ tap_decap_or
 
 
 **run_placement**
-![image](https://github.com/user-attachments/assets/1884af07-e707-431a-9773-f937b9007b17)
+![image](https://github.com/user-attachments/assets/bea91c36-88cd-467e-a999-a37aaa6f0dc2)
+
 
 
 **lay-out**
